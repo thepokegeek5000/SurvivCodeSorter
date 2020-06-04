@@ -74,7 +74,7 @@ public class CodeReader {
                         writer.write("\n* "+fileArray[i][j]);
                     }
                 }
-                String bonusLine = i==0?"":"\n";
+                String bonusLine = i==fileArray.length-1?"":"\n";
                 writer.write("\n"+bonusLine);
             }
             outFile=new File("images.txt");
@@ -157,8 +157,8 @@ public class CodeReader {
      * @param data array
      */
     private void sortLists(@NotNull String[][] data) {
-        String temp;
         for (int a=0; a<data.length; a++) {
+            String temp;
             for (int i=1; i<data[a].length; i++) {
                 for (int j=i+1; j<data[a].length; j++) {
                     if (data[a][i].compareTo(data[a][j]) > 0) {
@@ -166,6 +166,16 @@ public class CodeReader {
                         data[a][i] = data[a][j];
                         data[a][j] = temp;
                     }
+                }
+            }
+        }
+        for (int i=0; i<data.length; i++) {
+            String[] temp;
+            for (int j=i+1; j<data.length; j++) {
+                if (data[i][0].compareTo(data[j][0]) > 0) {
+                    temp = data[i];
+                    data[i] = data[j];
+                    data[j] = temp;
                 }
             }
         }
