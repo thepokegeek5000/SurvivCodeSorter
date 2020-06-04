@@ -1,9 +1,8 @@
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -65,7 +64,7 @@ public class CodeReader {
      */
     public void genFile() throws IOException {
         if (canFetch[0]) {
-            FileWriter writer = new FileWriter("images.txt");
+            OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream("images.txt"), StandardCharsets.UTF_8);
             for (int i = 0; i<fileArray.length; i++) {
                 for (int j = 0; j<fileArray[i].length; j++) {
                     if (j==0) {
@@ -77,6 +76,7 @@ public class CodeReader {
                 String bonusLine = i==fileArray.length-1?"":"\n";
                 writer.write("\n"+bonusLine);
             }
+            writer.close();
             outFile=new File("images.txt");
             canFetch[1]=true;
         } else System.out.println("Error: Failed to use sortImages() first");
