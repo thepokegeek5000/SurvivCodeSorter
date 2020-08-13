@@ -17,8 +17,19 @@
   </component>
   <component name="ProjectId" id="1ckZNXdvM2oaYuXKnkLo011TIXb" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/beta/src" />
     <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivImageCodeSorter\beta\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivImageCodeSorter\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -36,6 +47,13 @@
     <configuration name="FileOutputter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FileOutputter" />
       <module name="SurvivImageCodeSorter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileOutputter2Beta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileOutputter2Beta" />
+      <module name="beta" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -61,6 +79,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.FileOutputter" />
+        <item itemvalue="Application.FileOutputter2Beta" />
       </list>
     </recent_temporary>
   </component>

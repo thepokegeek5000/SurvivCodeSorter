@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SurvivImageCodeSorter.iml" filepath="$PROJECT_DIR$/SurvivImageCodeSorter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beta/beta.iml" filepath="$PROJECT_DIR$/beta/beta.iml" />
     </modules>
   </component>
 </project>

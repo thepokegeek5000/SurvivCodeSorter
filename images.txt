@@ -1,11 +1,22 @@
-== "new-buildings" ==
-* crane.img
+== beach ==
+# https://surviv.io/assets/beach-0-100-d83ffeef.png
+
+* map-bush-12.img
+* map-crate-ice-box-res.img
+* map-icebox-01.img
+* map-tree-18.img
+
 
 == cinco_de_mayo ==
+# https://surviv.io/assets/cinco_de_mayo-0-100-24bad1d1.png
+
 * map-pinata-01.img
 * map-pinata-res-01.img
 
+
 == cobalt ==
+# https://surviv.io/assets/cobalt-0-100-bfa24a5a.png
+
 * map-bunker-crossing-ceiling-01.img
 * map-bunker-crossing-chamber-ceiling-01.img
 * map-bunker-crossing-chamber-floor-01a.img
@@ -74,7 +85,75 @@
 * role-sniper.img
 * role-tank.img
 
+
+== contact ==
+# https://surviv.io/assets/contact-0-100-c4de17cd.png
+# https://surviv.io/assets/contact-1-100-afdf5cc1.png
+
+* blood-particle-1.img
+* blood-particle-2.img
+* blood-particle-3.img
+* blood-particle-4.img
+* blood-particle-5.img
+* blood-particle-6.img
+* blood-skitter-particle-1.img
+* blood-skitter-particle-2.img
+* blood-skitter-particle-3.img
+* blood-skitter-particle-4.img
+* blood-skitter-particle-5.img
+* blood-skitter-particle-6.img
+* egg-particle-1.img
+* egg-particle-2.img
+* egg-particle-3.img
+* egg-particle-4.img
+* map-bunker-conch-chamber-floor-01e.img
+* map-bunker-conch-chamber-floor-02e.img
+* map-bunker-conch-compartment-floor-03e.img
+* map-bunker-conch-compartment-floor-03f.img
+* map-bunker-crossing-chamber-floor-02e.img
+* map-bunker-crossing-compartment-floor-01e.img
+* map-bunker-crossing-compartment-floor-02e.img
+* map-bunker-crossing-floor-01e.img
+* map-bush-13.img
+* map-bush-13b.img
+* map-bush-13c.img
+* map-cannon-01.img
+* map-chest-03i.img
+* map-contact-egg-res-01.img
+* map-crate-egg.img
+* map-crop-circle-01.img
+* map-crop-circle-02.img
+* map-crop-circle-03.img
+* map-loading-blast-01.img
+* map-loading-blast-02.img
+* map-loading-blast-03.img
+* map-loading-blast-04.img
+* map-loading-blast-05.img
+* map-loading-blast-06.img
+* map-loading-blast-07.img
+* map-loading-blast-08.img
+* map-loading-blast-09.img
+* map-loading-blast-10.img
+* map-loading-blast-11.img
+* map-skitter-res.img
+* map-spaceship-01.img
+* map-spaceship-fusion-01.img
+* map-spaceship-fusion-02.img
+* map-spaceship-fusion-03.img
+* map-spaceship-fusion-04.img
+* map-stone-11.img
+* map-stone-res-11.img
+* map-target.img
+* map-tree-19.img
+* skitter-walking-1.img
+* skitter-walking-2.img
+* skitter-walking-3.img
+* skitter-walking-4.img
+
+
 == desert ==
+# https://surviv.io/assets/desert-0-100-b9815bb1.png
+
 * map-archway-res-01.img
 * map-building-archway-ceiling-01.img
 * map-building-greenhouse-ceiling-02.img
@@ -121,7 +200,10 @@
 * map-tree-05c.img
 * map-tree-06.img
 
+
 == eggsplotion ==
+# https://surviv.io/assets/eggsplotion-0-100-ef438c9f.png
+
 * map-easteregg-01.img
 * map-easteregg-02.img
 * map-easteregg-03.img
@@ -130,7 +212,10 @@
 * map-easteregg-06.img
 * map-egg-res-01.img
 
+
 == faction ==
+# https://surviv.io/assets/faction-0-100-94880ad9.png
+
 * map-airdrop-03.img
 * map-airdrop-04.img
 * map-bubble.img
@@ -178,7 +263,10 @@
 * map-stone-03f.img
 * map-stone-res-02f.img
 
+
 == gradient ==
+# https://surviv.io/assets/gradient-0-100-ad4441b8.png
+
 * map-barrel-res-01.img
 * map-building-club-gradient-01.img
 * map-building-mansion-gradient-01.img
@@ -191,7 +279,10 @@
 * map-plane-01.img
 * map-plane-02.img
 
+
 == halloween ==
+# https://surviv.io/assets/halloween-0-100-b3e4ab29.png
+
 * map-airdrop-01h.img
 * map-airdrop-02h.img
 * map-bunker-eye-chamber-ceiling-01.img
@@ -219,7 +310,10 @@
 * part-airdrop-01h.img
 * part-airdrop-02h.img
 
+
 == loadout ==
+# https://surviv.io/assets/loadout-0-100-c1dcc810.png
+
 * acorn.img
 * ammo-12gauge.img
 * ammo-308sub.img
@@ -461,6 +555,7 @@
 * loot-circle-outer-04.img
 * loot-circle-outer-05.img
 * loot-circle-outer-07.img
+* loot-contact.img
 * loot-helmet-01.img
 * loot-helmet-02.img
 * loot-helmet-03.img
@@ -576,13 +671,16 @@
 * loot-shirt-outfitWheat.img
 * loot-shirt-outfitWhite.img
 * loot-shirt-outfitWoodland.img
+* loot-shirt-speedo.img
 * loot-shirt-whiteDay.img
 * loot-throwable-frag.img
 * loot-throwable-mirv.img
 * loot-throwable-potato.img
+* loot-throwable-skitternade.img
 * loot-throwable-smoke.img
 * loot-throwable-snowball.img
 * loot-throwable-strobe.img
+* loot-throwable-water.img
 * loot-weapon-ak.img
 * loot-weapon-an94.img
 * loot-weapon-awc.img
@@ -651,6 +749,7 @@
 * loot-weapon-vector.img
 * loot-weapon-vector45.img
 * loot-weapon-vss.img
+* loot-weapon-water.img
 * loot-xp-bone-01.img
 * loot-xp-book-01.img
 * loot-xp-book-02.img
@@ -663,6 +762,12 @@
 * loot-xp-glasses-01.img
 * loot-xp-stump-01.img
 * mag-glass.img
+* map-beach-party-particle-01.img
+* map-beach-party-particle-02.img
+* map-beach-party-particle-03.img
+* map-beach-wet-particle-01.img
+* map-beach-wet-particle-02.img
+* map-beach-wet-particle-03.img
 * map-party-time-particle-01.img
 * map-party-time-particle-02.img
 * map-party-time-particle-03.img
@@ -785,6 +890,7 @@
 * part-teleport-02.img
 * part-teleport-03.img
 * part-teleport-04.img
+* part-water-01.img
 * part-woodchip-01.img
 * pilgrim-hat.img
 * pineapple.img
@@ -795,6 +901,7 @@
 * ping-map-coming.img
 * ping-map-danger.img
 * ping-map-help.img
+* ping-map-motherShip.img
 * ping-map-pulse.img
 * ping-map-unlock.img
 * ping-map-woods-king.img
@@ -813,6 +920,8 @@
 * ping-team-danger.img
 * ping-team-help.img
 * ping-team-unlock.img
+* player-accessory-outfitFireball.img
+* player-accessory-outfitMecha.img
 * player-armor-base-01.img
 * player-base-01.img
 * player-base-02.img
@@ -822,10 +931,14 @@
 * player-base-outfitDeepPurple.img
 * player-base-outfitHeaven.img
 * player-base-outfitLumber.img
+* player-base-outfitMojo.img
 * player-base-outfitParmaPrestige.img
+* player-base-outfitSpeedo.img
 * player-base-outfitSpetsnaz.img
 * player-base-outfitSunset.img
 * player-base-outfitTurkey.img
+* player-base-outfitUrbanCamo.img
+* player-base-outfitWaves.img
 * player-base-outfitWheat.img
 * player-base-outfitWhiteDay.img
 * player-bullet-trail-02.img
@@ -843,6 +956,10 @@
 * player-hands-FrostPunch.img
 * player-hands-SpliTheDiff.img
 * player-hands-chrome.img
+* player-hands-moss.img
+* player-hands-outfitFireball.img
+* player-hands-scifi.img
+* player-hands-speedo.img
 * player-hands-white.img
 * player-helmet-bugler.img
 * player-helmet-forest.img
@@ -897,6 +1014,7 @@
 * proj-mirv-pin.img
 * proj-potato-01.img
 * proj-potato-02.img
+* proj-skitternade.img
 * proj-smoke-nopin-nolever.img
 * proj-smoke-nopin.img
 * proj-smoke-pin.img
@@ -905,6 +1023,7 @@
 * proj-strobe-armed.img
 * proj-strobe-arming.img
 * proj-strobe-unarmed.img
+* proj-water-balloon.img
 * pumpkin-play.img
 * pumpkin.img
 * question.img
@@ -921,6 +1040,7 @@
 * skull-team.img
 * skull.img
 * sleepy.img
+* slime.img
 * snowflake.img
 * snowman.img
 * star-blue.img
@@ -939,9 +1059,13 @@
 * trunk.img
 * turkey-animal.img
 * unlock.img
+* water-gun.img
 * whale.img
 
+
 == main ==
+# https://surviv.io/assets/main-0-100-2a46061b.png
+
 * map-building-greenhouse-ceiling-01.img
 * map-building-greenhouse-floor-01.img
 * map-bunker-chrys-chamber-ceiling-01.img
@@ -998,7 +1122,16 @@
 * map-planter-05.img
 * map-planter-res-01.img
 
+
+== new-buildings ==
+# https://surviv.io/assets/new-buildings-0-100-b68eefe4.png
+
+* crane.img
+
+
 == potato ==
+# https://surviv.io/assets/potato-0-100-f0d9dcd1.png
+
 * map-building-shilo-ceiling-01.img
 * map-building-shilo-floor-01.img
 * map-potato-01.img
@@ -1006,7 +1139,10 @@
 * map-potato-03.img
 * map-potato-res-01.img
 
+
 == savannah ==
+# https://surviv.io/assets/savannah-0-100-f863bb7a.png
+
 * map-brush-01sv.img
 * map-brush-02sv.img
 * map-brush-res-02sv.img
@@ -1032,8 +1168,15 @@
 * map-wall-08-grassy-res.img
 * map-wall-08-grassy.img
 
+
 == shared ==
+# https://surviv.io/assets/shared-0-100-9b757cd6.png
+# https://surviv.io/assets/shared-1-100-9389f9fa.png
+# https://surviv.io/assets/shared-2-100-4c2b4ad0.png
+# https://surviv.io/assets/shared-3-100-146568ae.png
+
 * basement_door.img
+* beach-party.img
 * broken-container-01.img
 * cobalt.img
 * crosshair051.img
@@ -1045,9 +1188,21 @@
 * currency-golde-potato.img
 * currency-potato-sack.img
 * egg_icon.img
+* emote-deadface.img
+* emote-easy.img
+* emote-fabulorn.img
+* emote-flushed.img
+* emote-greedy.img
+* emote-happyghost.img
+* emote-lies.img
 * emote-medical-healthkit.img
 * emote-oof.img
+* emote-panned.img
+* emote-shroomcloud.img
+* emote-shur.img
 * emote-skull.img
+* emote-starstruck.img
+* emote-sweaty.img
 * emote-trollface.img
 * face-shock.img
 * food-trash-station.img
@@ -1069,20 +1224,27 @@
 * gun-short-02.img
 * gun-short-03.img
 * gun-short-04.img
+* iap-discount-tag.img
+* iap_got_stamp.img
+* icon_video.img
 * incentive_battletag.img
 * incentive_hydra.img
 * incentive_skin.img
+* index-dropdown-arrow.img
 * jukebox.img
 * large-window-res.img
 * large_window.img
 * lasr-swrds-icn.img
+* loading-logo.img
 * loadout-potato.img
 * loadout-weapon.img
 * loot-blossom-icon.img
 * loot-circle-outer-06.img
 * loot-crate-01.img
 * loot-crate-02.img
+* loot-crate-03.img
 * loot-gunchilada.img
+* loot-i-01.img
 * loot-info-01.img
 * loot-info-01a.img
 * loot-info-02.img
@@ -1092,9 +1254,19 @@
 * loot-melee-BlueVelvet.img
 * loot-melee-FrostPunch.img
 * loot-melee-SpliTheDiff.img
+* loot-melee-blackholes.img
+* loot-melee-bulletbills.img
 * loot-melee-crab-tongs.img
+* loot-melee-darklets.img
+* loot-melee-dinoclaws.img
 * loot-melee-feral-claws.img
+* loot-melee-immolate.img
+* loot-melee-moss.img
+* loot-melee-paws.img
+* loot-melee-poke.img
+* loot-melee-rainbowhands.img
 * loot-melee-red-gloves.img
+* loot-melee-scifi.img
 * loot-melee-sledgehammer.img
 * loot-perk-closer.img
 * loot-perk-cupid.img
@@ -1105,17 +1277,31 @@
 * loot-perk-polarbear.img
 * loot-perk-snowfox.img
 * loot-perk-turkey_shoot.img
+* loot-shirt-outfitAstronaut.img
 * loot-shirt-outfitChromesis.img
 * loot-shirt-outfitClayMore.img
+* loot-shirt-outfitCow.img
 * loot-shirt-outfitDeepPurple.img
+* loot-shirt-outfitDiamondy.img
+* loot-shirt-outfitFireball.img
+* loot-shirt-outfitFragtastic.img
 * loot-shirt-outfitGeometric.img
+* loot-shirt-outfitGiraffe.img
+* loot-shirt-outfitMecha.img
 * loot-shirt-outfitMilitary.img
+* loot-shirt-outfitMojo.img
+* loot-shirt-outfitNeonEyesore.img
+* loot-shirt-outfitRusticSands.img
 * loot-shirt-outfitSplotchfest.img
 * loot-shirt-outfitSunset.img
+* loot-shirt-outfitUrbanCamo.img
+* loot-shirt-outfitWaves.img
 * loot-shirt-outfitWinter.img
+* loot-shirt-outfitZebra.img
 * loot-spinner-01.img
 * loot-spinner-02.img
 * loot-throwable-mine.img
+* loot-watermelon.img
 * loot-weapon-hawk12g.img
 * loot-weapon-m134.img
 * loot-weapon-m79.img
@@ -1135,6 +1321,7 @@
 * map-bathhouse-column-01.img
 * map-bathhouse-pool-01.img
 * map-bathrocks-01.img
+* map-beach-party-particle-04.img
 * map-bed-01.img
 * map-bed-02.img
 * map-bed-res-01.img
@@ -1493,13 +1680,20 @@
 * news.img
 * outfit-chrome-accessory.img
 * part-40mm-01.img
+* part-boost-atomic.img
 * part-boost-energel.img
+* part-boost-gear.img
+* part-boost-sugar.img
 * part-chocolateBox.img
 * part-cupid-01.img
 * part-cupid-02.img
 * part-cupid-03.img
+* part-heal-diamond.img
 * part-heal-hexa.img
+* part-heal-lotus.img
+* part-heal-paramedicine.img
 * part-heal-patch.img
+* part-heal-syringe.img
 * part-heart-01.img
 * part-heart-02.img
 * part-leaf-01sv.img
@@ -1509,23 +1703,49 @@
 * part-snowflake.img
 * part-takedown-01.img
 * part-wedge-01.img
+* pass-basic-badge.img
+* pass-fabulorn.img
 * pass-level-bg.img
+* pass-lock.img
+* pass-noad.img
+* pass-premium-badge.img
+* pass-premium-bg.img
+* pass-star-1.img
+* pass-star-2.img
+* pass-star-3.img
 * pass-unlock-bg.img
 * pass-unlock-type-bg.img
+* pass-video-icon.img
+* pass-xp.img
 * pass.img
 * pinata_icon.img
 * pink metal crate debris.img
+* player-accessory-outfitAstronaut.img
+* player-accessory-outfitDiamondy.img
+* player-base-outfitAstronaut.img
+* player-base-outfitCow.img
 * player-base-outfitGeometric.img
+* player-base-outfitGiraffe.img
 * player-base-outfitMilitary.img
 * player-base-outfitSplotchfest.img
 * player-base-outfitWinter.img
+* player-base-outfitZebra.img
 * player-fists-crab-tongs-01.img
 * player-fists-crab-tongs-02.img
 * player-fists-feral-claws.img
 * player-fists-gloves-01.img
 * player-fists-gloves-02.img
+* player-hands-blackholes.img
+* player-hands-bulletbills.img
+* player-hands-darklets.img
+* player-hands-dinoclaws.img
 * player-hands-geometric.img
+* player-hands-immolate.img
 * player-hands-military.img
+* player-hands-outfitMecha.img
+* player-hands-paws.img
+* player-hands-poke.img
+* player-hands-rainbowhands.img
 * player-hands-winter.img
 * player-helmet-marksman.img
 * player-medic.img
@@ -1535,10 +1755,17 @@
 * proj-mine-01.img
 * proj-wedge-01.img
 * rainbow-ball.img
+* shop_icon.img
 * sink-01.img
+* surviv_logo_full.img
 * timer.img
+* type-2.img
+* type-4.img
+
 
 == snow ==
+# https://surviv.io/assets/snow-0-100-c7497e87.png
+
 * map-bunker-conch-chamber-floor-01b.img
 * map-bunker-conch-chamber-floor-02b.img
 * map-bunker-conch-compartment-floor-02a.img
@@ -1599,7 +1826,10 @@
 * map-tree-10.img
 * player-snowfootprint-01.img
 
+
 == space ==
+# https://surviv.io/assets/space-0-100-a15a2dd3.png
+
 * map-bunker-conch-chamber-floor-01d.img
 * map-bunker-conch-chamber-floor-02d.img
 * map-bunker-conch-compartment-floor-03c.img
@@ -1619,7 +1849,10 @@
 * map-tree-16.img
 * map-tree-17.img
 
+
 == st_patrick ==
+# https://surviv.io/assets/st_patrick-0-100-263550d4.png
+
 * map-barrel-05.img
 * map-bunker-conch-chamber-floor-01c.img
 * map-bunker-conch-chamber-floor-02c.img
@@ -1635,7 +1868,10 @@
 * map-stone-res-08.img
 * map-tree-14.img
 
+
 == storm ==
+# https://surviv.io/assets/storm-0-100-18117df1.png
+
 * lightning-1-1.img
 * lightning-1-10.img
 * lightning-1-11.img
@@ -1665,7 +1901,10 @@
 * map-wave-02.img
 * map-wave-03.img
 
+
 == valentine ==
+# https://surviv.io/assets/valentine-0-100-a64fd0bc.png
+
 * bush-res-rose.img
 * bush-rose.img
 * gun-heart-cannon-01.img
@@ -1702,7 +1941,10 @@
 * proj-frag-pin-part-03.img
 * proj-heart-01.img
 
+
 == woods ==
+# https://surviv.io/assets/woods-0-100-6d420fe5.png
+
 * map-building-pavilion-ceiling-01.img
 * map-building-pavilion-floor-01.img
 * map-building-pavilion-res-01.img
