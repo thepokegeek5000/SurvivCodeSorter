@@ -17,18 +17,20 @@
   </component>
   <component name="ProjectId" id="1ckZNXdvM2oaYuXKnkLo011TIXb" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/beta/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivCodeSorter\SurvivImageCode\src" />
+      <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivCodeSorter\SurvivImageCode" />
+      <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivImageCodeSorter\src" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivImageCodeSorter\beta\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivImageCodeSorter\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -43,10 +45,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileOutputter">
+  <component name="RunManager" selected="Application.FileOutputter (1)">
+    <configuration name="FileOutputter (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileOutputter" />
+      <module name="SurvivImageCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FileOutputter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FileOutputter" />
-      <module name="SurvivImageCodeSorter" />
+      <module name="SurvivCodeSorter" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -59,7 +68,7 @@
       </method>
     </configuration>
     <configuration name="Plugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="SurvivImageCodeSorter" />
+      <module name="SurvivCodeSorter" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file enabled="true" id="idea.log" />
@@ -68,7 +77,7 @@
       </method>
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="SurvivImageCodeSorter" />
+      <module name="SurvivCodeSorter" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file enabled="true" id="idea.log" />
@@ -78,6 +87,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileOutputter (1)" />
         <item itemvalue="Application.FileOutputter" />
         <item itemvalue="Application.FileOutputter2Beta" />
       </list>

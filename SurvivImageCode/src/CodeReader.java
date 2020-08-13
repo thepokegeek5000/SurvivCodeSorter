@@ -19,7 +19,6 @@ public class CodeReader {
     ]
 */
     private boolean[] canFetch;//[is sorted, file generated]
-    private File outFile;
 
     /**
      * Creates an instance of an image code reader
@@ -29,14 +28,6 @@ public class CodeReader {
     public CodeReader(File codeFile) {
         this.codeFile=codeFile;
         this.canFetch=new boolean[] {false, false};
-    }
-
-    /**
-     * Returns file if file is generated
-     * @return file
-     */
-    public File getFile() {
-        return canFetch[1]?outFile:null;
     }
 
     /**
@@ -162,7 +153,7 @@ public class CodeReader {
      */
     public void genFile() throws IOException {
         if (canFetch[0]) {
-            OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream("images.txt"), StandardCharsets.UTF_8);
+            OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream("SurvivImageCode/src/images.txt"), StandardCharsets.UTF_8);
             for (int i=0; i<fileArray.length; i++) {
                 writer.write("== "+fileArray[i][0][0]+" ==");
                 for (int j=0; j<fileArray[i][1].length; j++) {
@@ -176,7 +167,6 @@ public class CodeReader {
                 writer.write("\n"+bonusLine);
             }
             writer.close();
-            outFile=new File("imagesBeta.txt");
             canFetch[1]=true;
         } else System.out.println("Error: Failed to use sortImages() first");
     }

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SurvivImageCodeSorter.iml" filepath="$PROJECT_DIR$/SurvivImageCodeSorter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImageCode/ImageCode.iml" filepath="$PROJECT_DIR$/ImageCode/ImageCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SurvivCodeSorter.iml" filepath="$PROJECT_DIR$/SurvivCodeSorter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SurvivImageCode/SurvivImageCode.iml" filepath="$PROJECT_DIR$/SurvivImageCode/SurvivImageCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/beta/beta.iml" filepath="$PROJECT_DIR$/beta/beta.iml" />
     </modules>
   </component>
