@@ -17,19 +17,22 @@
   </component>
   <component name="ProjectId" id="1ckZNXdvM2oaYuXKnkLo011TIXb" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SurvivGeneralCode/src" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivCodeSorter\SurvivImageCode\src" />
       <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivCodeSorter\SurvivImageCode" />
+      <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivCodeSorter" />
+      <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivCodeSorter\SurvivImageCode\src" />
       <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivImageCodeSorter\src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivCodeSorter\SurvivGeneralCode\src" />
+      <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivCodeSorter\SurvivImageCode\src" />
       <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivImageCodeSorter\beta\src" />
     </key>
   </component>
@@ -45,10 +48,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileOutputter (1)">
+  <component name="RunManager" selected="Application.FileOutputter (2)">
     <configuration name="FileOutputter (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FileOutputter" />
       <module name="SurvivImageCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileOutputter (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileOutputter" />
+      <module name="SurvivGeneralCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileOutputter (2)" />
         <item itemvalue="Application.FileOutputter (1)" />
         <item itemvalue="Application.FileOutputter" />
         <item itemvalue="Application.FileOutputter2Beta" />

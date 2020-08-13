@@ -1,4 +1,3 @@
-import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.*;
@@ -11,6 +10,7 @@ import java.util.Scanner;
  */
 public class CodeReader {
     private File codeFile;
+    private OutputStreamWriter writer;
     private String[][][] fileArray;
 /*
     [
@@ -22,25 +22,26 @@ public class CodeReader {
 
     /**
      * Creates an instance of an image code reader
-     * @param codeFile File of image code
+     * @param inFile reference of input file
+     * @param outFile reference of output file
      */
-    @Contract(pure = true)
-    public CodeReader(File codeFile) {
-        this.codeFile=codeFile;
+    public CodeReader(String inFile, String outFile) throws FileNotFoundException {
+        this.codeFile=new File(inFile);
+        writer = new OutputStreamWriter(new FileOutputStream(outFile), StandardCharsets.UTF_8);
         this.canFetch=new boolean[] {false, false};
     }
 
     /**
      * Sorts the images and generates file
      */
-    public void runAll() throws IOException {
+    public void run() throws IOException {
         fileArray=genLists(codeFile);           //Generates Data Array
         sortLists(fileArray); canFetch[0]=true; //Sorts Data Array
         genFile();                              //Generates File
     }
 
     /**
-     * Removes excess data from the file and splits it into multiple files
+     * Pulls data from file and puts it in an array
      * @param file File to read
      * @return File array
      * @throws IOException
@@ -151,9 +152,8 @@ public class CodeReader {
     /**
      * Generates output as a single file if you have run the sorting function before
      */
-    public void genFile() throws IOException {
+    private void genFile() throws IOException {
         if (canFetch[0]) {
-            OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream("SurvivImageCode/src/images.txt"), StandardCharsets.UTF_8);
             for (int i=0; i<fileArray.length; i++) {
                 writer.write("== "+fileArray[i][0][0]+" ==");
                 for (int j=0; j<fileArray[i][1].length; j++) {
