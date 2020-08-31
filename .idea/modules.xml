@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ImageCode/ImageCode.iml" filepath="$PROJECT_DIR$/ImageCode/ImageCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/SurvivCodeSorter.iml" filepath="$PROJECT_DIR$/SurvivCodeSorter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SurvivDataCode/SurvivDataCode.iml" filepath="$PROJECT_DIR$/SurvivDataCode/SurvivDataCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/SurvivGeneralCode/SurvivGeneralCode.iml" filepath="$PROJECT_DIR$/SurvivGeneralCode/SurvivGeneralCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/SurvivImageCode/SurvivImageCode.iml" filepath="$PROJECT_DIR$/SurvivImageCode/SurvivImageCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/beta/beta.iml" filepath="$PROJECT_DIR$/beta/beta.iml" />

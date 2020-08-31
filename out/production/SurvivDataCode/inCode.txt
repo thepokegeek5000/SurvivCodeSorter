@@ -1,0 +1,4709 @@
+var _0x5dd2fd = {
+    'mp5': {
+        'name': 'MP5',
+        'type': 'gun',
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1d74'),
+        'caseTiming': 'shoot',
+        'ammo': a0_0x2222('0x9f8'),
+        'ammoSpawnCount': 0x5a,
+        'maxClip': 0x1e,
+        'maxReload': 0x1e,
+        'extendedClip': 0x28,
+        'extendedReload': 0x28,
+        'reloadTime': 0x2,
+        'fireDelay': 0.09,
+        'switchDelay': 0.75,
+        'barrelLength': 2.625,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x4,
+        'shotSpread': 0x3,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x1e3c'),
+        'bulletTypeBonus': a0_0x2222('0x10cc'),
+        'headshotMult': 0x2,
+        'size': 'med',
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x23e5'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-med-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.49
+            },
+            'tint': 0x121212,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.375
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x1c88'),
+            'reload': a0_0x2222('0x3bc'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': 'empty_fire_01',
+            'deploy': a0_0x2222('0x1ac1')
+        }
+    },
+    'mac10': {
+        'name': a0_0x2222('0xa89'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': 'auto',
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0x9f8'),
+        'ammoSpawnCount': 0x60,
+        'maxClip': 0x20,
+        'maxReload': 0x20,
+        'extendedClip': 0x32,
+        'extendedReload': 0x32,
+        'reloadTime': 1.8,
+        'fireDelay': 0.045,
+        'switchDelay': 0.75,
+        'barrelLength': 2.45,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0xb,
+        'shotSpread': 0xa,
+        'bulletCount': 0x1,
+        'bulletType': 'bullet_mac10',
+        'bulletTypeBonus': a0_0x2222('0x24a0'),
+        'headshotMult': 0x2,
+        'size': 'med',
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': 'loot-weapon-mac10.img',
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-med-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.44
+            },
+            'tint': 0x383838,
+            'leftHandOffset': {
+                'x': 1.4,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.35
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x347'),
+            'reload': 'mac10_reload_01',
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': 'mac10_switch_01'
+        }
+    },
+    'ump9': {
+        'name': a0_0x2222('0x1943'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': 'burst',
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0x9f8'),
+        'ammoSpawnCount': 0x5a,
+        'maxClip': 0x1e,
+        'maxReload': 0x1e,
+        'extendedClip': 0x28,
+        'extendedReload': 0x28,
+        'reloadTime': 1.9,
+        'fireDelay': 0.35,
+        'burstDelay': 0.07,
+        'switchDelay': 0.75,
+        'barrelLength': 2.7,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x3,
+        'shotSpread': 1.5,
+        'bulletCount': 0x1,
+        'burstCount': 0x3,
+        'bulletType': a0_0x2222('0x375'),
+        'bulletTypeBonus': a0_0x2222('0x1231'),
+        'headshotMult': 0x2,
+        'size': 'med',
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x2048'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-med-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.515
+            },
+            'tint': 0x121212,
+            'leftHandOffset': {
+                'x': 5.6,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.4
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x185e'),
+            'reload': a0_0x2222('0x41a'),
+            'pickup': 'gun_pickup_01',
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0x13cd')
+        }
+    },
+    'vector': {
+        'name': 'Vector',
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x1,
+        'fireMode': a0_0x2222('0x1d74'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': '9mm',
+        'ammoSpawnCount': 0x63,
+        'maxClip': 0x21,
+        'maxReload': 0x21,
+        'extendedClip': 0x28,
+        'extendedReload': 0x28,
+        'reloadTime': 1.6,
+        'fireDelay': 0.038,
+        'switchDelay': 0.75,
+        'barrelLength': 2.5,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 4.5,
+        'shotSpread': 2.5,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x2371'),
+        'bulletTypeBonus': a0_0x2222('0xf5a'),
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0x7e2'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x133d'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0x1a41'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0x897960,
+            'leftHandOffset': {
+                'x': 0x7,
+                'y': 0x0
+            },
+            'recoil': 0.89
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.4
+        },
+        'sound': {
+            'shoot': 'vector_01',
+            'reload': a0_0x2222('0x43e'),
+            'pickup': 'gun_pickup_01',
+            'empty': 'empty_fire_01',
+            'deploy': a0_0x2222('0x1dd3')
+        }
+    },
+    'vector45': {
+        'name': a0_0x2222('0x224a'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x1,
+        'fireMode': a0_0x2222('0x1d74'),
+        'caseTiming': 'shoot',
+        'ammo': a0_0x2222('0xcab'),
+        'ammoSpawnCount': 0x4b,
+        'maxClip': 0x19,
+        'maxReload': 0x19,
+        'extendedClip': 0x20,
+        'extendedReload': 0x20,
+        'reloadTime': 1.6,
+        'fireDelay': 0.044,
+        'switchDelay': 0.75,
+        'barrelLength': 2.5,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 6.5,
+        'shotSpread': 4.5,
+        'bulletCount': 0x1,
+        'bulletType': 'bullet_vector45',
+        'headshotMult': 0x2,
+        'size': 'med',
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': 'loot-weapon-vector45.img',
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-med-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0x897960,
+            'leftHandOffset': {
+                'x': 0x7,
+                'y': 0x0
+            },
+            'recoil': 0.89
+        },
+        'particle': {
+            'shellScale': 1.2,
+            'shellOffset': 0.4
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x589'),
+            'reload': a0_0x2222('0x43e'),
+            'pickup': 'gun_pickup_01',
+            'empty': 'empty_fire_01',
+            'deploy': a0_0x2222('0x1dd3')
+        }
+    },
+    'scorpion': {
+        'name': a0_0x2222('0xfeb'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x1,
+        'fireMode': a0_0x2222('0x1d74'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0x9f8'),
+        'ammoSpawnCount': 0x5a,
+        'maxClip': 0x1e,
+        'maxReload': 0x1e,
+        'extendedClip': 0x28,
+        'extendedReload': 0x28,
+        'reloadTime': 2.2,
+        'fireDelay': 0.055,
+        'switchDelay': 0.75,
+        'barrelLength': 3.6,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x5,
+        'shotSpread': 0x4,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x1a3d'),
+        'bulletTypeBonus': a0_0x2222('0x1437'),
+        'headshotMult': 0x2,
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x2184'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0x8cd'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0x8,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.375
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x1c05'),
+            'reload': a0_0x2222('0x60c'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0x16ab'),
+            'fallOff': 0x3
+        }
+    },
+    'vss': {
+        'name': a0_0x2222('0x2ab'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x1,
+        'fireMode': 'single',
+        'caseTiming': 'shoot',
+        'ammo': a0_0x2222('0x9f8'),
+        'ammoSpawnCount': 0x3c,
+        'maxClip': 0x14,
+        'maxReload': 0x14,
+        'extendedClip': 0x1e,
+        'extendedReload': 0x1e,
+        'reloadTime': 2.3,
+        'fireDelay': 0.16,
+        'switchDelay': 0.75,
+        'barrelLength': 3.7,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x3,
+        'shotSpread': 0x2,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x3b6'),
+        'bulletTypeBonus': a0_0x2222('0x1703'),
+        'headshotMult': 0x2,
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': 'loot-weapon-vss.img',
+            'tint': 0xff00,
+            'border': 'loot-circle-outer-01.img',
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-vss-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0x9,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.375
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x511'),
+            'reload': a0_0x2222('0x237a'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': 'empty_fire_01',
+            'deploy': a0_0x2222('0x83'),
+            'fallOff': 0x3
+        }
+    },
+    'famas': {
+        'name': a0_0x2222('0x214a'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1bc8'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'isBullpup': !![],
+        'ammo': '556mm',
+        'ammoSpawnCount': 0x4b,
+        'maxClip': 0x19,
+        'maxReload': 0x19,
+        'extendedClip': 0x23,
+        'extendedReload': 0x23,
+        'reloadTime': 2.3,
+        'fireDelay': 0.35,
+        'burstDelay': 0.07,
+        'switchDelay': 0.75,
+        'barrelLength': 3.1,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x2,
+        'shotSpread': 1.1,
+        'bulletCount': 0x1,
+        'burstCount': 0x3,
+        'bulletType': a0_0x2222('0x87'),
+        'headshotMult': 0x2,
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x173f'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0x2a2'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0xc,
+                'y': 0x0
+            },
+            'gunOffset': {
+                'x': -(-0xd7d * -0x2 + -0x85d * -0x3 + 0x1 * -0x3409),
+                'y': 0x0
+            },
+            'recoil': 1.33
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.425
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x608'),
+            'reload': a0_0x2222('0x615'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': 'famas_switch_01'
+        }
+    },
+    'hk416': {
+        'name': a0_0x2222('0x2015'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1d74'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': '556mm',
+        'ammoSpawnCount': 0x5a,
+        'maxClip': 0x1e,
+        'maxReload': 0x1e,
+        'extendedClip': 0x28,
+        'extendedReload': 0x28,
+        'reloadTime': 2.3,
+        'fireDelay': 0.075,
+        'switchDelay': 0.75,
+        'barrelLength': 2.7,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x8,
+        'shotSpread': 0x4,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0xf8f'),
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0x7e2'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': 'loot-weapon-hk416.img',
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0x1a41'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.52
+            },
+            'tint': 0xdbc49a,
+            'leftHandOffset': {
+                'x': 4.2,
+                'y': 0x0
+            },
+            'recoil': 1.33
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.4
+        },
+        'sound': {
+            'shoot': 'hk416_01',
+            'reload': a0_0x2222('0xfe0'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': 'hk416_switch_01'
+        }
+    },
+    'm4a1': {
+        'name': a0_0x2222('0x24da'),
+        'type': 'gun',
+        'quality': 0x1,
+        'fireMode': a0_0x2222('0x1d74'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0x20f0'),
+        'ammoSpawnCount': 0x5a,
+        'maxClip': 0x1e,
+        'maxReload': 0x1e,
+        'extendedClip': 0x28,
+        'extendedReload': 0x28,
+        'reloadTime': 3.1,
+        'fireDelay': 0.082,
+        'switchDelay': 0.75,
+        'barrelLength': 3.5,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x4,
+        'shotSpread': 0x2,
+        'bulletCount': 0x1,
+        'bulletType': 'bullet_m4a1',
+        'headshotMult': 0x2,
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x573'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-m4a1-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 7.9,
+                'y': 0x0
+            },
+            'recoil': 1.3
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.4
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x675'),
+            'reload': 'm4a1_reload_01',
+            'pickup': 'gun_pickup_01',
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': 'm4a1_switch_01',
+            'fallOff': 0x3
+        }
+    },
+    'mk12': {
+        'name': a0_0x2222('0x900'),
+        'type': 'gun',
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': '556mm',
+        'ammoSpawnCount': 0x3c,
+        'maxClip': 0x14,
+        'maxReload': 0x14,
+        'extendedClip': 0x1e,
+        'extendedReload': 0x1e,
+        'reloadTime': 2.4,
+        'fireDelay': 0.18,
+        'switchDelay': 0.75,
+        'barrelLength': 3.5,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x3,
+        'shotSpread': 0x1,
+        'bulletCount': 0x1,
+        'bulletType': 'bullet_mk12',
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0x2d3'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x837'),
+            'tint': 0xff00,
+            'border': 'loot-circle-outer-01.img',
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-long-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.485
+            },
+            'tint': 0xa79c8a,
+            'leftHandOffset': {
+                'x': 4.2,
+                'y': 0x0
+            },
+            'recoil': 1.66
+        },
+        'particle': {
+            'shellScale': 1.3,
+            'shellOffset': 0.55
+        },
+        'sound': {
+            'shoot': 'mk12_01',
+            'reload': a0_0x2222('0x1f7'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': 'empty_fire_02',
+            'deploy': a0_0x2222('0x17f0')
+        }
+    },
+    'l86': {
+        'name': 'L86A2',
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': '556mm',
+        'ammoSpawnCount': 0x5a,
+        'maxClip': 0x1e,
+        'maxReload': 0x1e,
+        'extendedClip': 0x28,
+        'extendedReload': 0x28,
+        'reloadTime': 2.9,
+        'fireDelay': 0.19,
+        'switchDelay': 0.75,
+        'barrelLength': 3.25,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 3.5,
+        'shotSpread': 0x1,
+        'bulletCount': 0x1,
+        'bulletType': 'bullet_l86',
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0x2d3'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x10d0'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-long-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.46
+            },
+            'tint': 0xdcc8a7,
+            'leftHandOffset': {
+                'x': -(-0x1 * 0x26f6 + -0xc2e + -0xa3b * -0x5),
+                'y': 0x0
+            },
+            'recoil': 1.66
+        },
+        'particle': {
+            'shellScale': 1.3,
+            'shellOffset': 0.55
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x1258'),
+            'reload': 'l86_reload_01',
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x1e62'),
+            'deploy': 'l86_switch_01'
+        }
+    },
+    'm249': {
+        'name': a0_0x2222('0x19d5'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x1,
+        'fireMode': 'auto',
+        'caseTiming': 'shoot',
+        'ammo': '556mm',
+        'ammoSpawnCount': 0xc8,
+        'maxClip': 0x64,
+        'maxReload': 0x64,
+        'extendedClip': 0x96,
+        'extendedReload': 0x96,
+        'reloadTime': 6.7,
+        'fireDelay': 0.08,
+        'switchDelay': 0.75,
+        'barrelLength': 3.75,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x6,
+        'shotSpread': 1.5,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x1215'),
+        'headshotMult': 0x2,
+        'speed': {
+            'equip': 0x0,
+            'attack': -(-0xb46 + 0x185 * -0x13 + 0x2829)
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0xcbb'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-m249-top-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 13.2,
+                'y': 0x0
+            },
+            'recoil': 1.33,
+            'magImg': {
+                'sprite': a0_0x2222('0xbec'),
+                'pos': {
+                    'x': 0x0,
+                    'y': -(0x7 * 0x17a + 0x180f * -0x1 + 3533.5)
+                }
+            }
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.5875
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x8e1'),
+            'reload': a0_0x2222('0xb6f'),
+            'pickup': 'gun_pickup_01',
+            'empty': 'empty_fire_02',
+            'deploy': a0_0x2222('0x2190')
+        }
+    },
+    'qbb97': {
+        'name': a0_0x2222('0x1fc7'),
+        'type': 'gun',
+        'fireMode': a0_0x2222('0x1d74'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0x20f0'),
+        'ammoSpawnCount': 0x96,
+        'maxClip': 0x4b,
+        'maxReload': 0x4b,
+        'extendedClip': 0x5f,
+        'extendedReload': 0x5f,
+        'reloadTime': 3.9,
+        'fireDelay': 0.1,
+        'switchDelay': 0.75,
+        'barrelLength': 3.1,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0.5,
+        'shotSpread': 0x4,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x1720'),
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0x2d3'),
+        'speed': {
+            'equip': 0x0,
+            'attack': -(-0x1 * -0x15f3 + 0xe72 + -0x2463)
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x3df'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xee7'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.425
+            },
+            'tint': 0x1e1e1e,
+            'leftHandOffset': {
+                'x': 8.4,
+                'y': 0x0
+            },
+            'recoil': 1.33,
+            'magImg': {
+                'sprite': 'gun-qbb97-bot-01.img',
+                'pos': {
+                    'x': -(0x2485 * -0x1 + -0xfe * -0x20 + 1222.5),
+                    'y': -(0x29 * -0x1 + 0xbc8 * -0x2 + 6087.25)
+                }
+            }
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.5875
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x23e2'),
+            'reload': a0_0x2222('0x16a8'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x1e62'),
+            'deploy': a0_0x2222('0xf71')
+        }
+    },
+    'scout_elite': {
+        'name': a0_0x2222('0x1a29'),
+        'type': 'gun',
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1602'),
+        'weaponClass': a0_0x2222('0x1a0c'),
+        'caseTiming': 'shoot',
+        'ammo': a0_0x2222('0x20f0'),
+        'aimDelay': !![],
+        'ammoSpawnCount': 0x14,
+        'maxClip': 0x5,
+        'maxReload': 0x5,
+        'extendedClip': 0xa,
+        'extendedReload': 0xa,
+        'reloadTime': 2.6,
+        'fireDelay': 0x1,
+        'switchDelay': 0x1,
+        'pullDelay': 0x1,
+        'barrelLength': 3.5,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x1,
+        'shotSpread': 0x1,
+        'bulletCount': 0x1,
+        'bulletType': 'bullet_scout',
+        'headshotMult': 1.5,
+        'size': a0_0x2222('0x2d3'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x5
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0xd01'),
+            'tint': 0xff00,
+            'border': 'loot-circle-outer-01.img',
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xee7'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.52
+            },
+            'tint': 0x32363b,
+            'leftHandOffset': {
+                'x': 2.8,
+                'y': 0x0
+            },
+            'recoil': 2.33
+        },
+        'particle': {
+            'shellScale': 1.6,
+            'shellOffset': 0.6
+        },
+        'sound': {
+            'shoot': a0_0x2222('0xb6b'),
+            'reload': a0_0x2222('0x1c3'),
+            'cycle': a0_0x2222('0xaf3'),
+            'pull': a0_0x2222('0x548'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x1e62'),
+            'deploy': 'scout_cycle_01'
+        }
+    },
+    'ak47': {
+        'name': a0_0x2222('0x17c4'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1d74'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': '762mm',
+        'ammoSpawnCount': 0x5a,
+        'maxClip': 0x1e,
+        'maxReload': 0x1e,
+        'extendedClip': 0x28,
+        'extendedReload': 0x28,
+        'reloadTime': 2.5,
+        'fireDelay': 0.1,
+        'switchDelay': 0.75,
+        'barrelLength': 3.15,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 7.5,
+        'shotSpread': 2.5,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x1b54'),
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0x2d3'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0xa11'),
+            'tint': 0xff00,
+            'border': 'loot-circle-outer-01.img',
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xee7'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.435
+            },
+            'tint': 0x622a12,
+            'leftHandOffset': {
+                'x': 2.8,
+                'y': 0x0
+            },
+            'recoil': 1.33
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.45
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x146'),
+            'reload': a0_0x2222('0x202e'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x1e62'),
+            'deploy': a0_0x2222('0x1a7b')
+        }
+    },
+    'waterGun': {
+        'name': 'Water\x20Gun',
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1d74'),
+        'caseTiming': 'shoot',
+        'ammo': a0_0x2222('0x12e4'),
+        'ammoSpawnCount': 0x5a,
+        'noPotatoSwap': !![],
+        'maxClip': 0x1e,
+        'maxReload': 0x1e,
+        'extendedClip': 0x28,
+        'extendedReload': 0x28,
+        'reloadTime': 2.5,
+        'fireDelay': 0.1,
+        'switchDelay': 0.75,
+        'barrelLength': 2.3,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 7.5,
+        'shotSpread': 2.5,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x199'),
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0x2d3'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x1508'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0x1472'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.435
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 2.8,
+                'y': 0x0
+            },
+            'recoil': 0x2
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.45,
+            'customParticle': a0_0x2222('0x5e9')
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x1c79'),
+            'reload': a0_0x2222('0x41e'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': 'empty_fire_02',
+            'deploy': 'ak47_switch_01'
+        }
+    },
+    'scar': {
+        'name': 'SCAR-H',
+        'type': 'gun',
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1d74'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0x12e4'),
+        'ammoSpawnCount': 0x50,
+        'maxClip': 0x14,
+        'maxReload': 0x14,
+        'extendedClip': 0x1e,
+        'extendedReload': 0x1e,
+        'reloadTime': 2.7,
+        'fireDelay': 0.09,
+        'switchDelay': 0.75,
+        'barrelLength': 3.15,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x5,
+        'shotSpread': 0x2,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x21e0'),
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0x2d3'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0xbe'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xee7'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.435
+            },
+            'tint': 0x9b7b48,
+            'leftHandOffset': {
+                'x': 2.8,
+                'y': 0x0
+            },
+            'recoil': 1.33
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.45
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x1088'),
+            'reload': a0_0x2222('0xfb0'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x1e62'),
+            'deploy': a0_0x2222('0xebd')
+        }
+    },
+    'scarssr': {
+        'name': a0_0x2222('0x20f3'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x1,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': 'shoot',
+        'ammo': '308sub',
+        'ammoSpawnCount': 0x28,
+        'maxClip': 0xa,
+        'maxReload': 0xa,
+        'extendedClip': 0x14,
+        'extendedReload': 0x14,
+        'reloadTime': 2.7,
+        'fireDelay': 0.3,
+        'switchDelay': 0.75,
+        'barrelLength': 3.9,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 5.5,
+        'shotSpread': 1.5,
+        'bulletCount': 0x1,
+        'bulletType': 'bullet_scarssr',
+        'headshotMult': 1.5,
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0xe49'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0x385'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0x6,
+                'y': 0x0
+            },
+            'recoil': 1.33
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.45
+        },
+        'sound': {
+            'shoot': 'scarssr_01',
+            'reload': a0_0x2222('0xfb0'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': 'empty_fire_02',
+            'deploy': a0_0x2222('0xebd'),
+            'fallOff': 0x3
+        }
+    },
+    'an94': {
+        'name': a0_0x2222('0xa53'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x1,
+        'fireMode': a0_0x2222('0x1bc8'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': '762mm',
+        'ammoSpawnCount': 0x5a,
+        'maxClip': 0x2d,
+        'maxReload': 0x2d,
+        'extendedClip': 0x3c,
+        'extendedReload': 0x3c,
+        'reloadTime': 2.35,
+        'fireDelay': 0.24,
+        'burstDelay': 0.025,
+        'switchDelay': 0.75,
+        'barrelLength': 3.25,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x4,
+        'shotSpread': 1.5,
+        'bulletCount': 0x1,
+        'burstCount': 0x2,
+        'burstSounds': 0x1,
+        'bulletType': a0_0x2222('0x236e'),
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0x2d3'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x928'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xee7'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.46
+            },
+            'tint': 0x2d2d2d,
+            'leftHandOffset': {
+                'x': 2.85,
+                'y': 0x0
+            },
+            'recoil': 1.33
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.45
+        },
+        'sound': {
+            'shoot': a0_0x2222('0xc86'),
+            'reload': a0_0x2222('0xb36'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x1e62'),
+            'deploy': 'an94_switch_01'
+        }
+    },
+    'groza': {
+        'name': a0_0x2222('0x9cb'),
+        'type': 'gun',
+        'quality': 0x1,
+        'fireMode': a0_0x2222('0x1d74'),
+        'caseTiming': 'shoot',
+        'isBullpup': !![],
+        'ammo': a0_0x2222('0x12e4'),
+        'ammoSpawnCount': 0x5a,
+        'maxClip': 0x1e,
+        'maxReload': 0x1e,
+        'extendedClip': 0x28,
+        'extendedReload': 0x28,
+        'reloadTime': 2.8,
+        'fireDelay': 0.078,
+        'switchDelay': 0.75,
+        'barrelLength': 2.6,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x9,
+        'shotSpread': 0x5,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x12d1'),
+        'headshotMult': 0x2,
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x1022'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-groza-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0xc,
+                'y': 0x0
+            },
+            'gunOffset': {
+                'x': -(0xcd3 + -0x1d * 0xf1 + 0xe82),
+                'y': 0x0
+            },
+            'recoil': 1.4
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.45
+        },
+        'sound': {
+            'shoot': 'groza_01',
+            'reload': a0_0x2222('0x135f'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x1e62'),
+            'deploy': 'groza_switch_01'
+        }
+    },
+    'grozas': {
+        'name': 'Groza-S',
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x1,
+        'fireMode': 'auto',
+        'caseTiming': a0_0x2222('0xbb0'),
+        'isBullpup': !![],
+        'ammo': a0_0x2222('0x12e4'),
+        'ammoSpawnCount': 0x5a,
+        'maxClip': 0x1e,
+        'maxReload': 0x1e,
+        'extendedClip': 0x28,
+        'extendedReload': 0x28,
+        'reloadTime': 2.8,
+        'fireDelay': 0.078,
+        'switchDelay': 0.75,
+        'barrelLength': 3.3,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 7.5,
+        'shotSpread': 3.5,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x956'),
+        'headshotMult': 0x2,
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x1628'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-grozas-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0xc,
+                'y': 0x0
+            },
+            'gunOffset': {
+                'x': -(-0x3fa * 0x5 + -0x101 * -0x3 + -0x1 * -0x10e7),
+                'y': 0x0
+            },
+            'recoil': 1.4
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.45
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x25a'),
+            'reload': a0_0x2222('0x135f'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x1e62'),
+            'deploy': a0_0x2222('0xc64'),
+            'fallOff': 0x3
+        }
+    },
+    'dp28': {
+        'name': a0_0x2222('0x1e90'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': 'auto',
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': '762mm',
+        'ammoSpawnCount': 0x78,
+        'maxClip': 0x3c,
+        'maxReload': 0x3c,
+        'extendedClip': 0x50,
+        'extendedReload': 0x50,
+        'reloadTime': 3.3,
+        'fireDelay': 0.115,
+        'switchDelay': 0.75,
+        'barrelLength': 3.75,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x9,
+        'shotSpread': 0x2,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0xfe'),
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0x2d3'),
+        'speed': {
+            'equip': 0x0,
+            'attack': -(0x1390 + -0xd0a + -0x684)
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x2012'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-long-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.53
+            },
+            'tint': 0x1a1a1a,
+            'leftHandOffset': {
+                'x': 8.4,
+                'y': 0x0
+            },
+            'recoil': 1.33,
+            'magImg': {
+                'sprite': a0_0x2222('0xf5b'),
+                'pos': {
+                    'x': 0x0,
+                    'y': -(0x1 * 0x110e + -0x21b1 + 4281.5)
+                },
+                'top': !![]
+            }
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.6
+        },
+        'sound': {
+            'shoot': 'dp28_01',
+            'reload': 'dp28_reload_01',
+            'pickup': 'gun_pickup_01',
+            'empty': 'empty_fire_02',
+            'deploy': a0_0x2222('0x235')
+        }
+    },
+    'bar': {
+        'name': 'BAR\x20M1918',
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1d74'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0x12e4'),
+        'ammoSpawnCount': 0x50,
+        'maxClip': 0x14,
+        'maxReload': 0x14,
+        'extendedClip': 0x28,
+        'extendedReload': 0x28,
+        'reloadTime': 2.7,
+        'fireDelay': 0.12,
+        'switchDelay': 0.75,
+        'barrelLength': 3.7,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x8,
+        'shotSpread': 0x2,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x1b53'),
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0x2d3'),
+        'speed': {
+            'equip': 0x0,
+            'attack': -(0x86c * -0x1 + 0x2 * 0x37 + 2047.5)
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x138b'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xee7'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.52
+            },
+            'tint': 0x4d4c52,
+            'leftHandOffset': {
+                'x': 6.8,
+                'y': 0x0
+            },
+            'recoil': 1.4
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.6
+        },
+        'sound': {
+            'shoot': 'bar_01',
+            'reload': a0_0x2222('0x20b6'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x1e62'),
+            'deploy': a0_0x2222('0x6f9')
+        }
+    },
+    'pkp': {
+        'name': 'PKP\x20Pecheneg',
+        'type': 'gun',
+        'quality': 0x1,
+        'fireMode': 'auto',
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0x12e4'),
+        'ammoSpawnCount': 0xc8,
+        'maxClip': 0xc8,
+        'maxReload': 0xc8,
+        'extendedClip': 0xfa,
+        'extendedReload': 0xfa,
+        'reloadTime': 0x5,
+        'fireDelay': 0.1,
+        'switchDelay': 0.75,
+        'barrelLength': 3.6,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 7.5,
+        'shotSpread': 2.5,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x1da'),
+        'headshotMult': 0x2,
+        'speed': {
+            'equip': 0x0,
+            'attack': -(-0xff6 + 0x637 + 0x9c4)
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x1050'),
+            'tint': 0xff00,
+            'border': 'loot-circle-outer-01.img',
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-pkp-top-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 12.5,
+                'y': 0x0
+            },
+            'recoil': 1.33,
+            'magImg': {
+                'sprite': a0_0x2222('0x156b'),
+                'pos': {
+                    'x': 0x0,
+                    'y': -(0x203d + -0x1320 + -3339.5)
+                }
+            }
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.5875,
+            'shellReverse': !![]
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x1ada'),
+            'reload': a0_0x2222('0x1c36'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x1e62'),
+            'deploy': 'pkp_switch_01'
+        }
+    },
+    'pkm': {
+        'name': a0_0x2222('0x17c6'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x1,
+        'fireMode': a0_0x2222('0x1d74'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0x12e4'),
+        'ammoSpawnCount': 0xc8,
+        'maxClip': 0x64,
+        'maxReload': 0x64,
+        'extendedClip': 0xc8,
+        'extendedReload': 0xc8,
+        'reloadTime': 0x6,
+        'fireDelay': 0.1,
+        'switchDelay': 0.75,
+        'barrelLength': 3.6,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 7.5,
+        'shotSpread': 2.5,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x1026'),
+        'headshotMult': 0x2,
+        'speed': {
+            'equip': 0x0,
+            'attack': -(-0x2 * -0x151 + 0x6b7 * -0x5 + 0x3 * 0xa52)
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x751'),
+            'tint': 0xff00,
+            'border': 'loot-circle-outer-01.img',
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-pkm-lmg.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 12.5,
+                'y': 0x0
+            },
+            'recoil': 1.33
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.5875,
+            'shellReverse': !![]
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x8c5'),
+            'reload': a0_0x2222('0x2021'),
+            'pickup': 'gun_pickup_01',
+            'empty': a0_0x2222('0x1e62'),
+            'deploy': a0_0x2222('0x220')
+        }
+    },
+    'model94': {
+        'name': a0_0x2222('0x66c'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1602'),
+        'weaponClass': a0_0x2222('0x1a0c'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0xcab'),
+        'ammoSpawnCount': 0x40,
+        'maxClip': 0x8,
+        'maxReload': 0x1,
+        'extendedClip': 0x8,
+        'extendedReload': 0x1,
+        'reloadTime': 0.5,
+        'fireDelay': 0.7,
+        'switchDelay': 0x1,
+        'pullDelay': 0x1,
+        'barrelLength': 3.7,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x3,
+        'shotSpread': 1.5,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x2231'),
+        'headshotMult': 1.5,
+        'size': a0_0x2222('0x2d3'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': 'loot-weapon-model94.img',
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xee7'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.5175
+            },
+            'tint': 0xa06120,
+            'leftHandOffset': {
+                'x': 3.2,
+                'y': 0x0
+            },
+            'recoil': 2.33
+        },
+        'particle': {
+            'shellScale': 1.4,
+            'shellOffset': 0.6
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x2204'),
+            'reload': a0_0x2222('0x61a'),
+            'cycle': a0_0x2222('0x243f'),
+            'pull': a0_0x2222('0x243f'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x1e62'),
+            'deploy': a0_0x2222('0x243f')
+        }
+    },
+    'mkg45': {
+        'name': a0_0x2222('0x308'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x1,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0xcab'),
+        'ammoSpawnCount': 0x34,
+        'maxClip': 0xd,
+        'maxReload': 0xd,
+        'extendedClip': 0x1a,
+        'extendedReload': 0x1a,
+        'reloadTime': 2.1,
+        'fireDelay': 0.17,
+        'switchDelay': 0.75,
+        'barrelLength': 3.3,
+        'barrelOffset': 0x0,
+        'recoilTime': 0.2,
+        'moveSpread': 7.5,
+        'shotSpread': 3.5,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x5a8'),
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0x2d3'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x16c6'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-long-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.47
+            },
+            'tint': 0x353535,
+            'leftHandOffset': {
+                'x': 4.2,
+                'y': 0x0
+            },
+            'recoil': 1.66
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.45
+        },
+        'sound': {
+            'shoot': 'mkg45_01',
+            'reload': a0_0x2222('0x777'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x1e62'),
+            'deploy': a0_0x2222('0x24df')
+        }
+    },
+    'blr': {
+        'name': a0_0x2222('0x287'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': 'single',
+        'weaponClass': a0_0x2222('0x1a0c'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0x12e4'),
+        'ammoSpawnCount': 0x1e,
+        'maxClip': 0x3,
+        'maxReload': 0x3,
+        'extendedClip': 0x5,
+        'extendedReload': 0x5,
+        'reloadTime': 1.7,
+        'fireDelay': 0.8,
+        'switchDelay': 0x1,
+        'pullDelay': 0x1,
+        'barrelLength': 3.8,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x3,
+        'shotSpread': 1.5,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x18b3'),
+        'headshotMult': 1.5,
+        'size': a0_0x2222('0x2d3'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': 'loot-weapon-blr.img',
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xee7'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.53
+            },
+            'tint': 0x472706,
+            'leftHandOffset': {
+                'x': 6.4,
+                'y': 0x0
+            },
+            'recoil': 2.75
+        },
+        'particle': {
+            'shellScale': 1.4,
+            'shellOffset': 0.6
+        },
+        'sound': {
+            'shoot': 'blr_01',
+            'reload': a0_0x2222('0x186d'),
+            'cycle': a0_0x2222('0x10c0'),
+            'pull': a0_0x2222('0x10c0'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': 'empty_fire_02',
+            'deploy': a0_0x2222('0x10c0')
+        }
+    },
+    'mosin': {
+        'name': a0_0x2222('0x1442'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1602'),
+        'weaponClass': 'sniper',
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0x12e4'),
+        'aimDelay': !![],
+        'ammoSpawnCount': 0x14,
+        'maxClip': 0x5,
+        'maxReload': 0x1,
+        'maxReloadAlt': 0x5,
+        'extendedClip': 0x5,
+        'extendedReload': 0x1,
+        'extendedReloadAlt': 0x5,
+        'reloadTime': 0.9,
+        'reloadTimeAlt': 0x3,
+        'fireDelay': 1.75,
+        'switchDelay': 0x1,
+        'pullDelay': 0x1,
+        'barrelLength': 3.75,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x3,
+        'shotSpread': 0x1,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x81'),
+        'headshotMult': 1.5,
+        'size': a0_0x2222('0x2d3'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0xb2a'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-long-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.52
+            },
+            'tint': 0x331a00,
+            'leftHandOffset': {
+                'x': 2.8,
+                'y': 0x0
+            },
+            'recoil': 2.33
+        },
+        'particle': {
+            'shellScale': 1.6,
+            'shellOffset': 0.6
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x761'),
+            'reload': 'mosin_reload_01',
+            'reloadAlt': 'mosin_reload_02',
+            'cycle': a0_0x2222('0x13d9'),
+            'pull': a0_0x2222('0x1833'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': 'empty_fire_02',
+            'deploy': a0_0x2222('0x13d9')
+        }
+    },
+    'sv98': {
+        'name': a0_0x2222('0x665'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x1,
+        'fireMode': a0_0x2222('0x1602'),
+        'weaponClass': a0_0x2222('0x1a0c'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0x12e4'),
+        'aimDelay': !![],
+        'ammoSpawnCount': 0x1e,
+        'maxClip': 0xa,
+        'maxReload': 0xa,
+        'extendedClip': 0xf,
+        'extendedReload': 0xf,
+        'reloadTime': 2.7,
+        'fireDelay': 1.5,
+        'switchDelay': 0x1,
+        'pullDelay': 0.8,
+        'barrelLength': 3.5,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 2.5,
+        'shotSpread': 0x1,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x19a0'),
+        'headshotMult': 1.5,
+        'size': 'long',
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x16'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-long-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.4925
+            },
+            'tint': 0x658947,
+            'leftHandOffset': {
+                'x': 2.8,
+                'y': 0x0
+            },
+            'recoil': 2.33
+        },
+        'particle': {
+            'shellScale': 1.6,
+            'shellOffset': 0.6
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x1622'),
+            'reload': 'sv98_reload_01',
+            'cycle': 'sv98_cycle_01',
+            'pull': a0_0x2222('0x1fc4'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x1e62'),
+            'deploy': a0_0x2222('0x2348')
+        }
+    },
+    'awc': {
+        'name': a0_0x2222('0x1e52'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x1,
+        'fireMode': a0_0x2222('0x1602'),
+        'weaponClass': a0_0x2222('0x1a0c'),
+        'caseTiming': 'shoot',
+        'ammo': a0_0x2222('0xb57'),
+        'aimDelay': !![],
+        'ammoSpawnCount': 0x14,
+        'maxClip': 0x5,
+        'maxReload': 0x5,
+        'extendedClip': 0x7,
+        'extendedReload': 0x7,
+        'reloadTime': 3.6,
+        'fireDelay': 1.5,
+        'switchDelay': 0x1,
+        'pullDelay': 1.4,
+        'barrelLength': 3.8,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x4,
+        'shotSpread': 0.5,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x20be'),
+        'headshotMult': 0x1,
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x1521'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xd59'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0xb,
+                'y': 0x0
+            },
+            'recoil': 2.66
+        },
+        'particle': {
+            'shellScale': 1.5,
+            'shellOffset': 0.6
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x149f'),
+            'reload': a0_0x2222('0x1caa'),
+            'cycle': a0_0x2222('0x1d0a'),
+            'pull': a0_0x2222('0x16b'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x1e62'),
+            'deploy': a0_0x2222('0x1d0a'),
+            'fallOff': 0x3
+        }
+    },
+    'm39': {
+        'name': a0_0x2222('0x130c'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': '762mm',
+        'ammoSpawnCount': 0x3c,
+        'maxClip': 0x14,
+        'maxReload': 0x14,
+        'extendedClip': 0x1e,
+        'extendedReload': 0x1e,
+        'reloadTime': 2.5,
+        'fireDelay': 0.23,
+        'switchDelay': 0.75,
+        'barrelLength': 3.5,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 4.25,
+        'shotSpread': 0x1,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0xb30'),
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0x2d3'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': 'loot-weapon-m39.img',
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xee7'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.4925
+            },
+            'tint': 0x333333,
+            'leftHandOffset': {
+                'x': 2.8,
+                'y': 0x0
+            },
+            'recoil': 1.66
+        },
+        'particle': {
+            'shellScale': 1.3,
+            'shellOffset': 0.575
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x1e5d'),
+            'reload': a0_0x2222('0x21b'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x1e62'),
+            'deploy': a0_0x2222('0xcb2')
+        }
+    },
+    'svd': {
+        'name': a0_0x2222('0x1d14'),
+        'type': 'gun',
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0x12e4'),
+        'ammoSpawnCount': 0x3c,
+        'maxClip': 0xa,
+        'maxReload': 0xa,
+        'extendedClip': 0x14,
+        'extendedReload': 0x14,
+        'reloadTime': 2.5,
+        'fireDelay': 0.25,
+        'switchDelay': 0.75,
+        'barrelLength': 0x4,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 4.5,
+        'shotSpread': 0x1,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x50c'),
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0x2d3'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x14f5'),
+            'tint': 0xff00,
+            'border': 'loot-circle-outer-01.img',
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xee7'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.56
+            },
+            'tint': 0x1c1c1c,
+            'leftHandOffset': {
+                'x': 0x8,
+                'y': 0x0
+            },
+            'recoil': 0x2
+        },
+        'particle': {
+            'shellScale': 1.3,
+            'shellOffset': 0.575
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x4ff'),
+            'reload': a0_0x2222('0x1355'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x1e62'),
+            'deploy': a0_0x2222('0x36f')
+        }
+    },
+    'garand': {
+        'name': a0_0x2222('0x22cb'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x1,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': 'shoot',
+        'ammo': a0_0x2222('0x12e4'),
+        'ammoSpawnCount': 0x28,
+        'maxClip': 0x8,
+        'maxReload': 0x8,
+        'extendedClip': 0x8,
+        'extendedReload': 0x8,
+        'reloadTime': 2.1,
+        'fireDelay': 0.23,
+        'switchDelay': 0.75,
+        'barrelLength': 3.6,
+        'barrelOffset': 0x0,
+        'recoilTime': 0.36,
+        'moveSpread': 0x4,
+        'shotSpread': 0x1,
+        'bulletCount': 0x1,
+        'bulletType': 'bullet_garand',
+        'headshotMult': 0x2,
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': 'loot-weapon-garand.img',
+            'tint': 0xff00,
+            'border': 'loot-circle-outer-01.img',
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-garand-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0x8,
+                'y': 0x0
+            },
+            'recoil': 1.66
+        },
+        'particle': {
+            'shellScale': 1.3,
+            'shellOffset': 0.575
+        },
+        'sound': {
+            'shoot': a0_0x2222('0xe89'),
+            'shootLast': 'garand_02',
+            'reload': a0_0x2222('0x1662'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x1e62'),
+            'deploy': a0_0x2222('0x1db4')
+        }
+    },
+    'm870': {
+        'name': a0_0x2222('0x23dd'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': 'shoot',
+        'ammo': a0_0x2222('0xaa8'),
+        'deployGroup': 0x1,
+        'ammoSpawnCount': 0xa,
+        'maxClip': 0x5,
+        'maxReload': 0x1,
+        'extendedClip': 0xa,
+        'extendedReload': 0x1,
+        'reloadTime': 0.75,
+        'fireDelay': 0.9,
+        'switchDelay': 0.9,
+        'pullDelay': 0.9,
+        'barrelLength': 3.15,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x2,
+        'shotSpread': 0xa,
+        'bulletCount': 0x9,
+        'jitter': 0x1,
+        'bulletType': a0_0x2222('0x544'),
+        'headshotMult': 1.5,
+        'size': a0_0x2222('0x2d3'),
+        'lootImg': {
+            'sprite': 'loot-weapon-m870.img',
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xee7'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.435
+            },
+            'tint': 0x331a00,
+            'leftHandOffset': {
+                'x': 0x7,
+                'y': 0x0
+            },
+            'recoil': 1.33
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.45
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x1e60'),
+            'reload': 'm870_reload_01',
+            'cycle': 'm870_cycle_01',
+            'pull': a0_0x2222('0x24f4'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0x1634')
+        }
+    },
+    'hawk12g': {
+        'name': a0_0x2222('0x1c60'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': 'shoot',
+        'ammo': '12gauge',
+        'deployGroup': 0x1,
+        'ammoSpawnCount': 0xa,
+        'maxClip': 0x5,
+        'maxReload': 0x5,
+        'extendedClip': 0xa,
+        'extendedReload': 0xa,
+        'reloadTime': 2.5,
+        'fireDelay': 0.7,
+        'switchDelay': 0.9,
+        'pullDelay': 0x1,
+        'barrelLength': 3.15,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x2,
+        'shotSpread': 0x5,
+        'bulletCount': 0x9,
+        'jitter': 0x1,
+        'bulletType': a0_0x2222('0x544'),
+        'headshotMult': 1.5,
+        'lootImg': {
+            'sprite': 'loot-weapon-hawk12g.img',
+            'tint': 0xff00,
+            'border': 'loot-circle-outer-01.img',
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0x1f3d'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0xc,
+                'y': -(0x642 + -0x17d6 * -0x1 + -0x1e15)
+            },
+            'gunOffset': {
+                'x': -(0x1 * -0xbf + -0x6c * -0x3e + -0x3 * 0x875),
+                'y': 0x0
+            },
+            'recoil': 1.33
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.45
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x1c7e'),
+            'reload': a0_0x2222('0x2302'),
+            'cycle': a0_0x2222('0x70c'),
+            'pull': 'hawk12g_pull_01',
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0x70c')
+        }
+    },
+    'm1100': {
+        'name': a0_0x2222('0xa2f'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': 'single',
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0xaa8'),
+        'ammoSpawnCount': 0xc,
+        'maxClip': 0x4,
+        'maxReload': 0x1,
+        'extendedClip': 0x8,
+        'extendedReload': 0x1,
+        'reloadTime': 0.7,
+        'fireDelay': 0.3,
+        'switchDelay': 0.9,
+        'barrelLength': 3.15,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x2,
+        'shotSpread': 0x19,
+        'bulletCount': 0x12,
+        'jitter': 0x1,
+        'bulletType': a0_0x2222('0x209'),
+        'headshotMult': 1.5,
+        'size': a0_0x2222('0x2d3'),
+        'lootImg': {
+            'sprite': a0_0x2222('0xc8b'),
+            'tint': 0xff00,
+            'border': 'loot-circle-outer-01.img',
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'worldImg': {
+            'sprite': 'gun-long-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.435
+            },
+            'tint': 0x2e442e,
+            'leftHandOffset': {
+                'x': 0x7,
+                'y': 0x0
+            },
+            'recoil': 1.33
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.45
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x546'),
+            'reload': a0_0x2222('0x1e4a'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0x4b4')
+        }
+    },
+    'mp220': {
+        'name': a0_0x2222('0x13a2'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': 'single',
+        'caseTiming': a0_0x2222('0x1b7f'),
+        'ammo': a0_0x2222('0xaa8'),
+        'ammoSpawnCount': 0xa,
+        'maxClip': 0x2,
+        'maxReload': 0x2,
+        'extendedClip': 0x2,
+        'extendedReload': 0x2,
+        'reloadTime': 2.7,
+        'fireDelay': 0.2,
+        'switchDelay': 0.3,
+        'barrelLength': 2.7,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x2,
+        'shotSpread': 0xa,
+        'bulletCount': 0x9,
+        'jitter': 0x1,
+        'bulletType': a0_0x2222('0x544'),
+        'headshotMult': 1.5,
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': 'loot-weapon-mp220.img',
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0x1e98'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 1.33
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.35
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x14ef'),
+            'reload': a0_0x2222('0x1c21'),
+            'pickup': 'gun_pickup_01',
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0x1298')
+        }
+    },
+    'saiga': {
+        'name': 'Saiga-12',
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x1,
+        'fireMode': a0_0x2222('0x1d74'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0xaa8'),
+        'ammoSpawnCount': 0x14,
+        'maxClip': 0x5,
+        'maxReload': 0x5,
+        'extendedClip': 0x8,
+        'extendedReload': 0x8,
+        'reloadTime': 2.5,
+        'fireDelay': 0.4,
+        'switchDelay': 0.75,
+        'barrelLength': 3.75,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x2,
+        'shotSpread': 0xa,
+        'bulletCount': 0x9,
+        'jitter': 0x1,
+        'bulletType': a0_0x2222('0x544'),
+        'headshotMult': 1.5,
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x2498'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0x1f6a'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0x8,
+                'y': 0x0
+            },
+            'recoil': 1.33
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.45
+        },
+        'sound': {
+            'shoot': 'saiga_01',
+            'reload': 'saiga_reload_01',
+            'pickup': 'gun_pickup_01',
+            'empty': 'empty_fire_02',
+            'deploy': 'saiga_switch_01'
+        }
+    },
+    'spas12': {
+        'name': a0_0x2222('0x56d'),
+        'type': 'gun',
+        'quality': 0x0,
+        'fireMode': 'single',
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0xaa8'),
+        'deployGroup': 0x1,
+        'ammoSpawnCount': 0x12,
+        'maxClip': 0x9,
+        'maxReload': 0x1,
+        'extendedClip': 0xc,
+        'extendedReload': 0x1,
+        'reloadTime': 0.55,
+        'fireDelay': 0.75,
+        'switchDelay': 0.75,
+        'pullDelay': 0.75,
+        'barrelLength': 2.8,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x3,
+        'shotSpread': 0x4,
+        'bulletCount': 0x9,
+        'jitter': 0.2,
+        'bulletType': 'bullet_flechette',
+        'headshotMult': 1.5,
+        'size': a0_0x2222('0x2d3'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x20ad'),
+            'tint': 0xff00,
+            'border': 'loot-circle-outer-01.img',
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xee7'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.4
+            },
+            'tint': 0x2d4251,
+            'leftHandOffset': {
+                'x': 4.9,
+                'y': 0x0
+            },
+            'recoil': 1.33
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.45
+        },
+        'sound': {
+            'shoot': a0_0x2222('0xa28'),
+            'reload': 'spas12_reload_01',
+            'cycle': 'spas12_cycle_01',
+            'pull': a0_0x2222('0x20ca'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': 'empty_fire_01',
+            'deploy': 'spas12_cycle_01'
+        }
+    },
+    'm1014': {
+        'name': 'M1014',
+        'type': 'gun',
+        'quality': 0x1,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': '12gauge',
+        'ammoSpawnCount': 0x10,
+        'maxClip': 0x8,
+        'maxReload': 0x1,
+        'extendedClip': 0xa,
+        'extendedReload': 0x1,
+        'reloadTime': 0.52,
+        'fireDelay': 0.4,
+        'switchDelay': 0.75,
+        'barrelLength': 3.2,
+        'barrelOffset': 0x0,
+        'recoilTime': 0.5,
+        'moveSpread': 0x4,
+        'shotSpread': 0x4,
+        'bulletCount': 0x1,
+        'jitter': 0.2,
+        'bulletType': a0_0x2222('0x231a'),
+        'headshotMult': 1.5,
+        'size': a0_0x2222('0x2d3'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x1b59'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xee7'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.44
+            },
+            'tint': 0x565038,
+            'leftHandOffset': {
+                'x': 4.8,
+                'y': 0x0
+            },
+            'recoil': 1.33
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.45
+        },
+        'sound': {
+            'shoot': 'm1014_01',
+            'reload': a0_0x2222('0x1b5b'),
+            'pickup': 'gun_pickup_01',
+            'empty': 'empty_fire_01',
+            'deploy': 'm1014_deploy_01'
+        }
+    },
+    'usas': {
+        'name': 'USAS-12',
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x1,
+        'fireMode': 'auto',
+        'caseTiming': 'shoot',
+        'ammo': a0_0x2222('0xaa8'),
+        'toMouseHit': !![],
+        'ammoSpawnCount': 0x1e,
+        'maxClip': 0xa,
+        'maxReload': 0xa,
+        'extendedClip': 0x14,
+        'extendedReload': 0x14,
+        'reloadTime': 2.9,
+        'fireDelay': 0.5,
+        'switchDelay': 0.75,
+        'barrelLength': 3.65,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x6,
+        'shotSpread': 0x7,
+        'bulletCount': 0x1,
+        'jitter': 0x1,
+        'bulletType': a0_0x2222('0x15ee'),
+        'noSplinter': !![],
+        'headshotMult': 0x1,
+        'speed': {
+            'equip': 0x0,
+            'attack': -(-0x568 + -0xfc5 * 0x1 + -0x152e * -0x1)
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x1297'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0x9c3'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0x10,
+                'y': 0x0
+            },
+            'recoil': 1.5
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.35
+        },
+        'sound': {
+            'shoot': 'usas_01',
+            'reload': a0_0x2222('0xde8'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x1e62'),
+            'deploy': a0_0x2222('0x1721')
+        }
+    },
+    'm9': {
+        'name': 'M9',
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x1,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': '9mm',
+        'ammoSpawnCount': 0x2d,
+        'dualWieldType': a0_0x2222('0x239'),
+        'pistol': !![],
+        'maxClip': 0xf,
+        'maxReload': 0xf,
+        'extendedClip': 0x1e,
+        'extendedReload': 0x1e,
+        'reloadTime': 1.6,
+        'fireDelay': 0.12,
+        'switchDelay': 0.25,
+        'barrelLength': 2.2,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x8,
+        'shotSpread': 0x8,
+        'bulletCount': 0x1,
+        'bulletType': 'bullet_m9',
+        'bulletTypeBonus': 'bullet_m9_bonus',
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0xf18'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x126'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xbe2'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.505
+            },
+            'tint': 0x1e1e1e,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.25
+        },
+        'sound': {
+            'shoot': 'm9_01',
+            'reload': a0_0x2222('0x12ce'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0x2517')
+        }
+    },
+    'm9_dual': {
+        'name': 'Dual\x20M9',
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'isDual': !![],
+        'pistol': !![],
+        'ammo': a0_0x2222('0x9f8'),
+        'ammoSpawnCount': 0x2d,
+        'maxClip': 0x1e,
+        'maxReload': 0x1e,
+        'extendedClip': 0x3c,
+        'extendedReload': 0x3c,
+        'reloadTime': 3.1,
+        'fireDelay': 0.08,
+        'switchDelay': 0.25,
+        'barrelLength': 2.2,
+        'barrelOffset': 0x0,
+        'dualOffset': 0.6,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x9,
+        'shotSpread': 0xb,
+        'bulletCount': 0x1,
+        'bulletType': 'bullet_m9',
+        'bulletTypeBonus': a0_0x2222('0x1ae3'),
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0xf18'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': 'loot-weapon-m9-dual.img',
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xbe2'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.505
+            },
+            'tint': 0x1e1e1e,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.25
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x1f3'),
+            'reload': a0_0x2222('0x175'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0x2517')
+        }
+    },
+    'm9_cursed': {
+        'name': a0_0x2222('0x6bc'),
+        'type': 'gun',
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': 'shoot',
+        'ammo': '9mm_cursed',
+        'ammoSpawnCount': 0x0,
+        'ammoInfinite': !![],
+        'noPotatoSwap': !![],
+        'pistol': !![],
+        'noDrop': !![],
+        'maxClip': 0xf,
+        'maxReload': 0xf,
+        'extendedClip': 0x1e,
+        'extendedReload': 0x1e,
+        'reloadTime': 1.6,
+        'fireDelay': 0.12,
+        'switchDelay': 0.25,
+        'barrelLength': 2.2,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x8,
+        'shotSpread': 0x8,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x1596'),
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0xf18'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x2074'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xbe2'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.505
+            },
+            'tint': 0x1e1e1e,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.25
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x1f3'),
+            'reload': a0_0x2222('0x12ce'),
+            'pickup': 'gun_pickup_01',
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0x2517')
+        }
+    },
+    'm93r': {
+        'name': a0_0x2222('0x14c9'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': 'burst',
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0x9f8'),
+        'ammoSpawnCount': 0x3c,
+        'dualWieldType': 'm93r_dual',
+        'pistol': ![],
+        'maxClip': 0x14,
+        'maxReload': 0x14,
+        'extendedClip': 0x1e,
+        'extendedReload': 0x1e,
+        'reloadTime': 1.8,
+        'fireDelay': 0.28,
+        'burstDelay': 0.04,
+        'switchDelay': 0.25,
+        'barrelLength': 2.3,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x4,
+        'shotSpread': 0x4,
+        'bulletCount': 0x1,
+        'burstCount': 0x3,
+        'bulletType': a0_0x2222('0x1379'),
+        'bulletTypeBonus': a0_0x2222('0xc17'),
+        'headshotMult': 0x2,
+        'size': 'short',
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x519'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xbe2'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.51
+            },
+            'tint': 0x2a381b,
+            'leftHandOffset': {
+                'x': 0.8,
+                'y': 0x0
+            },
+            'recoil': 0.5
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.25
+        },
+        'sound': {
+            'shoot': 'm93r_01',
+            'reload': a0_0x2222('0xad2'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': 'empty_fire_01',
+            'deploy': a0_0x2222('0x1aca')
+        }
+    },
+    'm93r_dual': {
+        'name': 'Dual\x20M93R',
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': 'burst',
+        'caseTiming': a0_0x2222('0xbb0'),
+        'isDual': !![],
+        'pistol': !![],
+        'ammo': '9mm',
+        'ammoSpawnCount': 0x3c,
+        'maxClip': 0x28,
+        'maxReload': 0x28,
+        'extendedClip': 0x3c,
+        'extendedReload': 0x3c,
+        'reloadTime': 3.3,
+        'fireDelay': 0.18,
+        'burstDelay': 0.04,
+        'switchDelay': 0.25,
+        'barrelLength': 2.2,
+        'barrelOffset': 0x0,
+        'dualOffset': 0.6,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x6,
+        'shotSpread': 0x7,
+        'bulletCount': 0x1,
+        'burstCount': 0x3,
+        'bulletType': 'bullet_m93r',
+        'bulletTypeBonus': a0_0x2222('0xc17'),
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0xf18'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x7f5'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-short-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.51
+            },
+            'tint': 0x2a381b,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.25
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x3ce'),
+            'reload': a0_0x2222('0xe1c'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': 'm93r_switch_01'
+        }
+    },
+    'glock': {
+        'name': a0_0x2222('0x7b0'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1d74'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': '9mm',
+        'ammoSpawnCount': 0x33,
+        'dualWieldType': 'glock_dual',
+        'pistol': !![],
+        'maxClip': 0x11,
+        'maxReload': 0x11,
+        'extendedClip': 0x1f,
+        'extendedReload': 0x1f,
+        'reloadTime': 1.95,
+        'fireDelay': 0.06,
+        'switchDelay': 0.25,
+        'barrelLength': 2.2,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0xa,
+        'shotSpread': 0xc,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x26e'),
+        'bulletTypeBonus': a0_0x2222('0x6b3'),
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0xf18'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x5a6'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xbe2'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.49
+            },
+            'tint': 0x1e1e1e,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.25
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x59e'),
+            'reload': a0_0x2222('0x240f'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0xcda')
+        }
+    },
+    'glock_dual': {
+        'name': a0_0x2222('0x67b'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1d74'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': '9mm',
+        'ammoSpawnCount': 0x33,
+        'isDual': !![],
+        'pistol': !![],
+        'maxClip': 0x22,
+        'maxReload': 0x22,
+        'extendedClip': 0x3e,
+        'extendedReload': 0x3e,
+        'reloadTime': 3.8,
+        'fireDelay': 0.03,
+        'switchDelay': 0.25,
+        'barrelLength': 2.2,
+        'barrelOffset': 0x0,
+        'dualOffset': 0.6,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x10,
+        'shotSpread': 0x12,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x26e'),
+        'bulletTypeBonus': 'bullet_glock_bonus',
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0xf18'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x79d'),
+            'tint': 0xff00,
+            'border': 'loot-circle-outer-01.img',
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xbe2'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.49
+            },
+            'tint': 0x1e1e1e,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.25
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x59e'),
+            'reload': a0_0x2222('0x1807'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0xcda')
+        }
+    },
+    'p30l': {
+        'name': a0_0x2222('0x6c4'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x1,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0x9f8'),
+        'ammoSpawnCount': 0x2d,
+        'dualWieldType': 'p30l_dual',
+        'pistol': !![],
+        'maxClip': 0xf,
+        'maxReload': 0xf,
+        'extendedClip': 0x1e,
+        'extendedReload': 0x1e,
+        'reloadTime': 1.2,
+        'fireDelay': 0.14,
+        'switchDelay': 0.25,
+        'barrelLength': 2.3,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x1,
+        'shotSpread': 0x2,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x2a4'),
+        'bulletTypeBonus': a0_0x2222('0x1193'),
+        'headshotMult': 0x2,
+        'speed': {
+            'equip': 0x1,
+            'attack': 0x1
+        },
+        'lootImg': {
+            'sprite': 'loot-weapon-p30l.img',
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0x1d6b'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.25
+        },
+        'sound': {
+            'shoot': a0_0x2222('0xc2c'),
+            'reload': 'p30l_reload_01',
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': 'empty_fire_01',
+            'deploy': a0_0x2222('0xc2a')
+        }
+    },
+    'p30l_dual': {
+        'name': a0_0x2222('0x1916'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x1,
+        'fireMode': 'single',
+        'caseTiming': 'shoot',
+        'ammo': a0_0x2222('0x9f8'),
+        'ammoSpawnCount': 0x5a,
+        'isDual': !![],
+        'pistol': !![],
+        'maxClip': 0x1e,
+        'maxReload': 0x1e,
+        'extendedClip': 0x3c,
+        'extendedReload': 0x3c,
+        'reloadTime': 2.65,
+        'fireDelay': 0.09,
+        'switchDelay': 0.3,
+        'barrelLength': 2.3,
+        'barrelOffset': 0x0,
+        'dualOffset': 0.6,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x2,
+        'shotSpread': 0x3,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x2a4'),
+        'bulletTypeBonus': a0_0x2222('0x1193'),
+        'headshotMult': 0x2,
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x1870'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0x1d6b'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.25
+        },
+        'sound': {
+            'shoot': a0_0x2222('0xc2c'),
+            'reload': a0_0x2222('0x162'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': 'p30l_switch_01'
+        }
+    },
+    'ot38': {
+        'name': a0_0x2222('0x2b6'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': 'single',
+        'caseTiming': a0_0x2222('0x1b7f'),
+        'ammo': a0_0x2222('0x12e4'),
+        'ammoSpawnCount': 0x14,
+        'dualWieldType': a0_0x2222('0x1712'),
+        'pistol': !![],
+        'maxClip': 0x5,
+        'maxReload': 0x5,
+        'extendedClip': 0x5,
+        'extendedReload': 0x5,
+        'reloadTime': 0x2,
+        'fireDelay': 0.4,
+        'switchDelay': 0.3,
+        'barrelLength': 2.05,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x3,
+        'shotSpread': 1.25,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x1d0f'),
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0xf18'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x8ee'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xbe2'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.4625
+            },
+            'tint': 0x707070,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.225
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x1eee'),
+            'reload': a0_0x2222('0x303'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0x169b')
+        }
+    },
+    'ot38_dual': {
+        'name': 'Dual\x20OT-38',
+        'type': 'gun',
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': 'reload',
+        'ammo': a0_0x2222('0x12e4'),
+        'ammoSpawnCount': 0x14,
+        'isDual': !![],
+        'pistol': !![],
+        'maxClip': 0xa,
+        'maxReload': 0xa,
+        'extendedClip': 0xa,
+        'extendedReload': 0xa,
+        'reloadTime': 3.8,
+        'fireDelay': 0.2,
+        'switchDelay': 0.3,
+        'barrelLength': 0x2,
+        'barrelOffset': 0x0,
+        'dualOffset': 0.6,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x4,
+        'shotSpread': 1.75,
+        'bulletCount': 0x1,
+        'bulletType': 'bullet_ot38',
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0xf18'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': 'loot-weapon-ot38-dual.img',
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-short-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.4625
+            },
+            'tint': 0x707070,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.225
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x1eee'),
+            'reload': a0_0x2222('0x184b'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': 'empty_fire_01',
+            'deploy': a0_0x2222('0x169b')
+        }
+    },
+    'ots38': {
+        'name': a0_0x2222('0x1780'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': 'single',
+        'caseTiming': 'reload',
+        'ammo': '762mm',
+        'ammoSpawnCount': 0x14,
+        'dualWieldType': a0_0x2222('0x11e9'),
+        'pistol': !![],
+        'maxClip': 0x5,
+        'maxReload': 0x5,
+        'extendedClip': 0x5,
+        'extendedReload': 0x5,
+        'reloadTime': 0x2,
+        'fireDelay': 0.36,
+        'switchDelay': 0.3,
+        'barrelLength': 2.05,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 2.4,
+        'shotSpread': 1.2,
+        'bulletCount': 0x1,
+        'bulletType': 'bullet_ots38',
+        'headshotMult': 0x2,
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': 'loot-weapon-ots38.img',
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0x211b'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.225
+        },
+        'sound': {
+            'shoot': a0_0x2222('0xc3b'),
+            'reload': 'ot38_reload_01',
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': 'ot38_switch_01',
+            'fallOff': 0x3
+        }
+    },
+    'ots38_dual': {
+        'name': a0_0x2222('0x150d'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x1,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': a0_0x2222('0x1b7f'),
+        'ammo': a0_0x2222('0x12e4'),
+        'ammoSpawnCount': 0x28,
+        'isDual': !![],
+        'pistol': !![],
+        'maxClip': 0xa,
+        'maxReload': 0xa,
+        'extendedClip': 0xa,
+        'extendedReload': 0xa,
+        'reloadTime': 3.8,
+        'fireDelay': 0.18,
+        'switchDelay': 0.3,
+        'barrelLength': 0x2,
+        'barrelOffset': 0x0,
+        'dualOffset': 0.6,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 2.8,
+        'shotSpread': 1.4,
+        'bulletCount': 0x1,
+        'bulletType': 'bullet_ots38',
+        'headshotMult': 0x2,
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x1f92'),
+            'tint': 0xff00,
+            'border': 'loot-circle-outer-01.img',
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0x211b'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.225
+        },
+        'sound': {
+            'shoot': a0_0x2222('0xc3b'),
+            'reload': 'ot38_reload_02',
+            'pickup': 'gun_pickup_01',
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0x169b'),
+            'fallOff': 0x3
+        }
+    },
+    'colt45': {
+        'name': 'Peacemaker',
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': 'auto',
+        'caseTiming': a0_0x2222('0x1b7f'),
+        'ammo': a0_0x2222('0xcab'),
+        'ammoSpawnCount': 0x30,
+        'dualWieldType': a0_0x2222('0x2072'),
+        'pistol': !![],
+        'maxClip': 0x6,
+        'maxReload': 0x6,
+        'extendedClip': 0x6,
+        'extendedReload': 0x6,
+        'reloadTime': 0x3,
+        'fireDelay': 0.12,
+        'switchDelay': 0.3,
+        'barrelLength': 2.26,
+        'barrelOffset': 0x0,
+        'recoilTime': 0.35,
+        'moveSpread': 0x3,
+        'shotSpread': 0x10,
+        'bulletCount': 0x1,
+        'bulletType': 'bullet_colt45',
+        'headshotMult': 1.5,
+        'size': a0_0x2222('0xf18'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0xaf7'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xbe2'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.52
+            },
+            'tint': 0xc4c4c4,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 1.2,
+            'shellOffset': 0.225
+        },
+        'sound': {
+            'shoot': 'colt45_01',
+            'reload': a0_0x2222('0x8f4'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0x11ca')
+        }
+    },
+    'colt45_dual': {
+        'name': a0_0x2222('0x1c87'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1d74'),
+        'caseTiming': a0_0x2222('0x1b7f'),
+        'ammo': '45acp',
+        'ammoSpawnCount': 0x30,
+        'isDual': !![],
+        'pistol': !![],
+        'maxClip': 0xc,
+        'maxReload': 0xc,
+        'extendedClip': 0xc,
+        'extendedReload': 0xc,
+        'reloadTime': 5.1,
+        'fireDelay': 0.13,
+        'switchDelay': 0.3,
+        'barrelLength': 2.26,
+        'barrelOffset': 0x0,
+        'dualOffset': 0.6,
+        'recoilTime': 0.35,
+        'moveSpread': 0x3,
+        'shotSpread': 0x10,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x109d'),
+        'headshotMult': 1.5,
+        'size': a0_0x2222('0xf18'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x8d0'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xbe2'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.52
+            },
+            'tint': 0xc4c4c4,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 1.2,
+            'shellOffset': 0.225
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x1238'),
+            'reload': a0_0x2222('0x1e4f'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0x11ca')
+        }
+    },
+    'm1911': {
+        'name': a0_0x2222('0x1804'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': 'single',
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': '45acp',
+        'ammoSpawnCount': 0x1c,
+        'dualWieldType': a0_0x2222('0x1f68'),
+        'pistol': !![],
+        'maxClip': 0x7,
+        'maxReload': 0x7,
+        'extendedClip': 0xc,
+        'extendedReload': 0xc,
+        'reloadTime': 2.1,
+        'fireDelay': 0.1,
+        'switchDelay': 0.25,
+        'barrelLength': 2.1,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x7,
+        'shotSpread': 0x6,
+        'bulletCount': 0x1,
+        'bulletType': 'bullet_m1911',
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0xf18'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0xc5b'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-short-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0x929292,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 1.2,
+            'shellOffset': 0.25
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x71b'),
+            'reload': a0_0x2222('0xea2'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0x1d40')
+        }
+    },
+    'm1911_dual': {
+        'name': 'Dual\x20M1911',
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'isDual': !![],
+        'pistol': !![],
+        'ammo': a0_0x2222('0xcab'),
+        'ammoSpawnCount': 0x1c,
+        'maxClip': 0xe,
+        'maxReload': 0xe,
+        'extendedClip': 0x18,
+        'extendedReload': 0x18,
+        'reloadTime': 3.6,
+        'fireDelay': 0.085,
+        'switchDelay': 0.25,
+        'barrelLength': 2.1,
+        'barrelOffset': 0x0,
+        'dualOffset': 0.6,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x8,
+        'shotSpread': 9.5,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x21c3'),
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0xf18'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x18e5'),
+            'tint': 0xff00,
+            'border': 'loot-circle-outer-01.img',
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xbe2'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0x929292,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 1.2,
+            'shellOffset': 0.25
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x71b'),
+            'reload': a0_0x2222('0x12ea'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0x1d40')
+        }
+    },
+    'm1a1': {
+        'name': a0_0x2222('0xde5'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1d74'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0xcab'),
+        'ammoSpawnCount': 0x5a,
+        'maxClip': 0x1e,
+        'maxReload': 0x1e,
+        'extendedClip': 0x32,
+        'extendedReload': 0x32,
+        'reloadTime': 2.8,
+        'fireDelay': 0.095,
+        'switchDelay': 0.75,
+        'barrelLength': 2.8,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x6,
+        'shotSpread': 0x6,
+        'bulletCount': 0x1,
+        'bulletType': 'bullet_m1a1',
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0x7e2'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': 'loot-weapon-m1a1.img',
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0x1a41'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.53
+            },
+            'tint': 0x381000,
+            'leftHandOffset': {
+                'x': 5.8,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 1.2,
+            'shellOffset': 0.375
+        },
+        'sound': {
+            'shoot': 'm1a1_01',
+            'reload': a0_0x2222('0x82'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0x717')
+        }
+    },
+    'rainbow_blaster': {
+        'name': a0_0x2222('0x1f0c'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': 'blaster',
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': 'rainbow_ammo',
+        'projType': a0_0x2222('0x2201'),
+        'noDrop': !![],
+        'noPotatoSwap': !![],
+        'ammoSpawnCount': 0x1,
+        'maxClip': 0x1,
+        'maxReload': 0x1,
+        'extendedClip': 0x1,
+        'extendedReload': 0x1,
+        'reloadTime': 0x0,
+        'fireDelay': 0.16,
+        'switchDelay': 0.3,
+        'barrelLength': 4.6,
+        'barrelOffset': 0x0,
+        'recoilTime': 0.5,
+        'moveSpread': 0x6,
+        'shotSpread': 2.5,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x68e'),
+        'loadTime': 1.5,
+        'headshotMult': 0x2,
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0,
+            'load': -(0x20c3 + -0x24b * 0xf + 418.2)
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x229e'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0xfb8'),
+            'scale': 0.3,
+            'noTint': !![]
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0x234a'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x5,
+            'handsBelow': !![],
+            'magImg': {
+                'sprite': 'gun-rainbow-top.img',
+                'pos': {
+                    'x': 0.5,
+                    'y': -(-0x517 * 0x7 + 0x1 * -0xb32 + 12027.6)
+                },
+                'top': !![],
+                'max_height_adj': 0xf
+            },
+            'onLoadComplete': a0_0x2222('0x1440'),
+            'loadingBullet': {
+                'sprite': a0_0x2222('0xe16'),
+                'pos': {
+                    'x': 0.5,
+                    'y': -(-0x1fa3 + 0x95 * 0x13 + 0x14d5)
+                },
+                'maxScale': 0.5
+            }
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.7875,
+            'shellReverse': !![],
+            'amount': 0xa
+        },
+        'sound': {
+            'shoot': 'rainbow_blaster_01',
+            'reload': a0_0x2222('0x15ae'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0x1651')
+        }
+    },
+    'deagle': {
+        'name': a0_0x2222('0x169c'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0x2496'),
+        'ammoSpawnCount': 0x38,
+        'dualWieldType': a0_0x2222('0xb64'),
+        'pistol': !![],
+        'maxClip': 0x7,
+        'maxReload': 0x7,
+        'extendedClip': 0x9,
+        'extendedReload': 0x9,
+        'reloadTime': 2.3,
+        'fireDelay': 0.16,
+        'switchDelay': 0.3,
+        'barrelLength': 1.855,
+        'barrelOffset': 0x0,
+        'recoilTime': 0.5,
+        'moveSpread': 0x6,
+        'shotSpread': 2.5,
+        'bulletCount': 0x1,
+        'bulletType': 'bullet_deagle',
+        'headshotMult': 0x2,
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x124e'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xb39'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 1.4,
+            'shellOffset': 0.265
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x2491'),
+            'reload': 'deagle_reload_01',
+            'pickup': 'gun_pickup_01',
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0x1651')
+        }
+    },
+    'lasr_gun': {
+        'name': a0_0x2222('0xe37'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': '12gauge',
+        'ammoSpawnCount': 0x38,
+        'pistol': !![],
+        'dualWieldType': a0_0x2222('0x36d'),
+        'noPotatoSwap': !![],
+        'maxClip': 0x7,
+        'maxReload': 0x7,
+        'extendedClip': 0x9,
+        'extendedReload': 0x9,
+        'reloadTime': 2.3,
+        'fireDelay': 0.16,
+        'switchDelay': 0.3,
+        'barrelLength': 2.555,
+        'barrelOffset': 0x0,
+        'recoilTime': 0.5,
+        'moveSpread': 0x6,
+        'shotSpread': 2.5,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x1186'),
+        'headshotMult': 0x2,
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x1bb6'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0x5e8'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 0x0,
+            'shellOffset': 0x0
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x1b9'),
+            'reload': a0_0x2222('0x232b'),
+            'pickup': 'gun_pickup_01',
+            'empty': 'empty_fire_01',
+            'deploy': a0_0x2222('0x1651')
+        }
+    },
+    'lasr_gun_dual': {
+        'name': a0_0x2222('0x9f0'),
+        'type': 'gun',
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': '12gauge',
+        'ammoSpawnCount': 0x62,
+        'noPotatoSwap': !![],
+        'isDual': !![],
+        'pistol': !![],
+        'maxClip': 0xe,
+        'maxReload': 0xe,
+        'extendedClip': 0x12,
+        'extendedReload': 0x12,
+        'reloadTime': 0x4,
+        'fireDelay': 0.12,
+        'switchDelay': 0.3,
+        'barrelLength': 2.4,
+        'barrelOffset': 0x0,
+        'dualOffset': 0.6,
+        'recoilTime': 0.5,
+        'moveSpread': 7.5,
+        'shotSpread': 3.5,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x1186'),
+        'headshotMult': 0x2,
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': 'loot-weapon-double-lasr-gun.img',
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-lasr-gun.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 0x0,
+            'shellOffset': 0x0
+        },
+        'sound': {
+            'shoot': 'lasr_01',
+            'reload': 'lasr_gun_reload_01',
+            'pickup': 'gun_pickup_01',
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0x1651')
+        }
+    },
+    'deagle_dual': {
+        'name': 'Dual\x20DEagle\x2050',
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x1,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0x2496'),
+        'ammoSpawnCount': 0x62,
+        'isDual': !![],
+        'pistol': !![],
+        'maxClip': 0xe,
+        'maxReload': 0xe,
+        'extendedClip': 0x12,
+        'extendedReload': 0x12,
+        'reloadTime': 0x4,
+        'fireDelay': 0.12,
+        'switchDelay': 0.3,
+        'barrelLength': 2.4,
+        'barrelOffset': 0x0,
+        'dualOffset': 0.6,
+        'recoilTime': 0.5,
+        'moveSpread': 7.5,
+        'shotSpread': 3.5,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x14b7'),
+        'headshotMult': 0x2,
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x703'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-deagle-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.265
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x2491'),
+            'reload': a0_0x2222('0x1e87'),
+            'pickup': 'gun_pickup_01',
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': 'deagle_switch_01'
+        }
+    },
+    'flare_gun': {
+        'name': a0_0x2222('0x1207'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': 'single',
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': a0_0x2222('0xa8d'),
+        'dualWieldType': 'flare_gun_dual',
+        'pistol': !![],
+        'outsideOnly': !![],
+        'ammoSpawnCount': 0x1,
+        'ignoreEndlessAmmo': !![],
+        'maxClip': 0x1,
+        'maxReload': 0x1,
+        'extendedClip': 0x1,
+        'extendedReload': 0x1,
+        'reloadTime': 0x2,
+        'fireDelay': 0.4,
+        'switchDelay': 0.3,
+        'barrelLength': 0x2,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x3,
+        'shotSpread': 1.25,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x20fb'),
+        'noSplinter': !![],
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0xf18'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x1578'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xbe2'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.4625
+            },
+            'tint': 0xff5400,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.225
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x500'),
+            'reload': a0_0x2222('0x157'),
+            'pickup': 'gun_pickup_01',
+            'empty': 'empty_fire_01',
+            'deploy': a0_0x2222('0x255')
+        }
+    },
+    'flare_gun_dual': {
+        'name': a0_0x2222('0x9a3'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': 'shoot',
+        'ammo': a0_0x2222('0xa8d'),
+        'isDual': !![],
+        'pistol': !![],
+        'outsideOnly': !![],
+        'ammoSpawnCount': 0x2,
+        'ignoreEndlessAmmo': !![],
+        'maxClip': 0x2,
+        'maxReload': 0x2,
+        'extendedClip': 0x2,
+        'extendedReload': 0x2,
+        'reloadTime': 3.5,
+        'fireDelay': 0.3,
+        'switchDelay': 0.3,
+        'barrelLength': 0x2,
+        'barrelOffset': 0x0,
+        'dualOffset': 0.6,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x3,
+        'shotSpread': 1.25,
+        'bulletCount': 0x1,
+        'bulletType': 'bullet_flare',
+        'noSplinter': !![],
+        'headshotMult': 0x2,
+        'size': a0_0x2222('0xf18'),
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': 'loot-weapon-flare-gun-dual.img',
+            'tint': 0xff00,
+            'border': 'loot-circle-outer-01.img',
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0xbe2'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.4625
+            },
+            'tint': 0xff5400,
+            'leftHandOffset': {
+                'x': 0x0,
+                'y': 0x0
+            },
+            'recoil': 0x1
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.225
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x500'),
+            'reload': a0_0x2222('0x1ed2'),
+            'pickup': 'gun_pickup_01',
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0x255')
+        }
+    },
+    'potato_cannon': {
+        'name': a0_0x2222('0x18d2'),
+        'type': 'gun',
+        'quality': 0x0,
+        'fireMode': 'single',
+        'caseTiming': a0_0x2222('0xbb0'),
+        'isLauncher': !![],
+        'noPotatoSwap': !![],
+        'deployGroup': 0x3,
+        'ammo': a0_0x2222('0x1926'),
+        'ammoSpawnCount': 0x0,
+        'ammoInfinite': !![],
+        'maxClip': 0x4,
+        'maxReload': 0x1,
+        'extendedClip': 0x4,
+        'extendedReload': 0x1,
+        'reloadTime': 0x1,
+        'fireDelay': 1.2,
+        'switchDelay': 0.9,
+        'barrelLength': 0x3,
+        'barrelOffset': -(0x130a + -0x1602 + 0x1 * 0x2f9),
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x2,
+        'shotSpread': 0x1,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x1336'),
+        'projType': a0_0x2222('0xc0f'),
+        'noSplinter': !![],
+        'headshotMult': 0x1,
+        'speed': {
+            'equip': -(0xcd9 + 0xce9 + -0x3 * 0x895),
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': 'loot-weapon-potato-cannon.img',
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0x93f'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0x7,
+                'y': 0x2
+            },
+            'gunOffset': {
+                'x': -(-0x3ad * 0x7 + -0x1f3d * 0x1 + 0x3902 * 0x1),
+                'y': -(0x1b50 + 0xfc5 + -0x2b11)
+            },
+            'recoil': 0x8,
+            'handsBelow': !![]
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': -(-0x1 * -0x125d + -0x1 * 0x1952 + 0x6f6),
+            'shellOffsetY': 0x1
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x72'),
+            'reload': a0_0x2222('0x1bca'),
+            'pickup': 'gun_pickup_01',
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0x3e5')
+        }
+    },
+    'potato_smg': {
+        'name': a0_0x2222('0x760'),
+        'type': 'gun',
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1d74'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'noPotatoSwap': !![],
+        'ammo': a0_0x2222('0x1926'),
+        'ammoSpawnCount': 0x0,
+        'ammoInfinite': !![],
+        'maxClip': 0x1e,
+        'maxReload': 0x1e,
+        'extendedClip': 0x28,
+        'extendedReload': 0x28,
+        'reloadTime': 0x2,
+        'fireDelay': 0.09,
+        'switchDelay': 0.75,
+        'barrelLength': 3.25,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x4,
+        'shotSpread': 0x3,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x1336'),
+        'projType': 'potato_smgshot',
+        'noSplinter': !![],
+        'headshotMult': 0x2,
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0xbd0'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0x881'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'recoil': 0x2,
+            'magImg': {
+                'sprite': a0_0x2222('0x747'),
+                'pos': {
+                    'x': 0x0,
+                    'y': -(0xcab + -0xd2 + -0x1 * 0xbca)
+                },
+                'top': !![]
+            }
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.1,
+            'shellReverse': !![],
+            'shellOffsetY': -(0x1 * -0x93 + -0x1 * 0x269f + 10035.1)
+        },
+        'sound': {
+            'shoot': 'potato_smg_01',
+            'reload': a0_0x2222('0x2308'),
+            'pickup': 'gun_pickup_01',
+            'empty': 'empty_fire_01',
+            'deploy': a0_0x2222('0x876')
+        }
+    },
+    'bugle': {
+        'name': a0_0x2222('0x6f2'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': 'single',
+        'caseTiming': a0_0x2222('0xbb0'),
+        'noDrop': !![],
+        'noPotatoSwap': !![],
+        'pistol': !![],
+        'ignoreDetune': !![],
+        'ammo': a0_0x2222('0x1102'),
+        'ammoSpawnCount': 0x0,
+        'maxClip': 0x1,
+        'maxReload': 0x1,
+        'extendedClip': 0x4,
+        'extendedReload': 0x1,
+        'reloadTime': 0.01,
+        'fireDelay': 0x1,
+        'switchDelay': 0.3,
+        'barrelLength': 0x3,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x1,
+        'shotSpread': 0x1,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x15'),
+        'noSplinter': !![],
+        'headshotMult': 0x1,
+        'speed': {
+            'equip': 0x0,
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x94f'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-bugle-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0xc,
+                'y': 0x0
+            },
+            'recoil': 0x4
+        },
+        'particle': {
+            'shellScale': 0x4,
+            'shellOffset': 0x2,
+            'shellForward': 0x1
+        },
+        'sound': {
+            'shoot': 'bugle_01',
+            'shootTeam': {
+                1: a0_0x2222('0x2173'),
+                2: a0_0x2222('0x34b')
+            },
+            'shootAlt': a0_0x2222('0x94c'),
+            'reload': '',
+            'pickup': a0_0x2222('0x1ed'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': a0_0x2222('0x1ed')
+        }
+    },
+    'heart_cannon': {
+        'name': a0_0x2222('0x18c7'),
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': 'shoot',
+        'isLauncher': !![],
+        'noPotatoSwap': !![],
+        'deployGroup': 0x3,
+        'ammo': a0_0x2222('0xb54'),
+        'ammoSpawnCount': 0x0,
+        'ammoInfinite': !![],
+        'maxClip': 0x4,
+        'maxReload': 0x1,
+        'extendedClip': 0x4,
+        'extendedReload': 0x1,
+        'reloadTime': 0x1,
+        'fireDelay': 1.2,
+        'switchDelay': 0.9,
+        'barrelLength': 0x3,
+        'barrelOffset': -(-0x1 * 0x1f25 + 0x432 * 0x2 + 0x16c2),
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x2,
+        'shotSpread': 0x1,
+        'bulletCount': 0x1,
+        'bulletType': 'bullet_heart',
+        'projType': a0_0x2222('0x2425'),
+        'noSplinter': !![],
+        'headshotMult': 0x1,
+        'speed': {
+            'equip': -(0x1ce9 + 0x25ed + -0x42d3),
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x12c'),
+            'tint': 0xff00,
+            'border': a0_0x2222('0x1e6c'),
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': a0_0x2222('0x139c'),
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0x7,
+                'y': 0x2
+            },
+            'gunOffset': {
+                'x': -(-0x552 + -0xc5a + 0x11b6),
+                'y': -(-0x1d * 0x137 + -0x2572 + -0x48b1 * -0x1)
+            },
+            'recoil': 0x8,
+            'handsBelow': !![]
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': -(-0x1 * -0x1f17 + 0x4 * 0x1a3 + -0x25a2),
+            'shellOffsetY': 0x1
+        },
+        'sound': {
+            'shoot': 'potato_cannon_01',
+            'reload': a0_0x2222('0x1bca'),
+            'pickup': 'gun_pickup_01',
+            'empty': 'empty_fire_01',
+            'deploy': a0_0x2222('0x3e5')
+        }
+    },
+    'm134': {
+        'name': a0_0x2222('0x537'),
+        'type': 'gun',
+        'quality': 0x1,
+        'fireMode': a0_0x2222('0x1d74'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'ammo': '762mm',
+        'ammoSpawnCount': 0x64,
+        'maxClip': 0xc8,
+        'maxReload': 0xc8,
+        'extendedClip': 0xfa,
+        'extendedReload': 0xfa,
+        'reloadTime': 0x8,
+        'fireDelay': 0.055,
+        'switchDelay': 0.9,
+        'barrelLength': 4.8,
+        'barrelOffset': 0x0,
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x1,
+        'shotSpread': 0x1,
+        'bulletCount': 0x1,
+        'bulletType': 'bullet_m134',
+        'headshotMult': 1.5,
+        'speed': {
+            'equip': -(0x1 * -0x54b + 0x12ed + -0x13d * 0xb),
+            'attack': -(-0xf93 * 0x2 + 0x1 * 0x1174 + -0xdb8 * -0x1)
+        },
+        'lootImg': {
+            'sprite': a0_0x2222('0x1b13'),
+            'tint': 0xff00,
+            'border': 'loot-circle-outer-01.img',
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-m134-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 13.5,
+                'y': -(-0xb * -0x2b + 0x3 * 0x48d + 0x3 * -0x529)
+            },
+            'rightHandOffset': {
+                'x': 0x5,
+                'y': 0x5
+            },
+            'gunOffset': {
+                'x': 0x0,
+                'y': -(0xd76 + -0x1 * -0xcfe + -0x1 * 0x1a70)
+            },
+            'recoil': 1.33
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': 0.5875,
+            'shellReverse': !![]
+        },
+        'sound': {
+            'shoot': a0_0x2222('0x179b'),
+            'reload': a0_0x2222('0x986'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x1e62'),
+            'deploy': a0_0x2222('0x1620')
+        }
+    },
+    'm79': {
+        'name': 'M79',
+        'type': a0_0x2222('0xdb8'),
+        'quality': 0x0,
+        'fireMode': a0_0x2222('0x1602'),
+        'caseTiming': a0_0x2222('0xbb0'),
+        'isLauncher': !![],
+        'noPotatoSwap': !![],
+        'deployGroup': 0x3,
+        'ammo': '40mm',
+        'ammoSpawnCount': 0xa,
+        'ammoInfinite': ![],
+        'maxClip': 0x1,
+        'maxReload': 0x1,
+        'extendedClip': 0x1,
+        'extendedReload': 0x1,
+        'reloadTime': 2.3,
+        'fireDelay': 0x0,
+        'switchDelay': 0.9,
+        'barrelLength': 0x2,
+        'barrelOffset': -(-0x91f * 0x3 + -0x1270 * 0x1 + 0x2dce),
+        'recoilTime': 0x2540be400,
+        'moveSpread': 0x2,
+        'shotSpread': 0x1,
+        'bulletCount': 0x1,
+        'bulletType': a0_0x2222('0x895'),
+        'projType': a0_0x2222('0xfba'),
+        'noSplinter': !![],
+        'headshotMult': 0x1,
+        'speed': {
+            'equip': -(-0xc2 * -0xc + -0x2 * -0xdcd + -0x24af * 0x1),
+            'attack': 0x0
+        },
+        'lootImg': {
+            'sprite': 'loot-weapon-m79.img',
+            'tint': 0xff00,
+            'border': 'loot-circle-outer-01.img',
+            'borderTint': 0x0,
+            'scale': 0.3
+        },
+        'worldImg': {
+            'sprite': 'gun-m79-01.img',
+            'scale': {
+                'x': 0.5,
+                'y': 0.5
+            },
+            'tint': 0xffffff,
+            'leftHandOffset': {
+                'x': 0x7,
+                'y': 0x2
+            },
+            'gunOffset': {
+                'x': -(-0x9a3 * -0x4 + 0xbbf * 0x2 + -0xf80 * 0x4),
+                'y': -(-0x1fb5 * 0x1 + 0x2029 + 0x2 * -0x38)
+            },
+            'recoil': 0x8,
+            'handsBelow': !![]
+        },
+        'particle': {
+            'shellScale': 0x1,
+            'shellOffset': -(-0x3d0 + -0x11db + -0x13 * -0x124),
+            'shellOffsetY': 0x1
+        },
+        'sound': {
+            'shoot': 'm79_01',
+            'reload': a0_0x2222('0x23ca'),
+            'pickup': a0_0x2222('0x4a2'),
+            'empty': a0_0x2222('0x20ea'),
+            'deploy': 'm79_switch_01'
+        }
+    }
+};

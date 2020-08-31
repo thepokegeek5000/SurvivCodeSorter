@@ -17,23 +17,26 @@
   </component>
   <component name="ProjectId" id="1ckZNXdvM2oaYuXKnkLo011TIXb" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SurvivGeneralCode/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SurvivDataCode/src" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivCodeSorter\SurvivImageCode" />
-      <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivCodeSorter" />
-      <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivCodeSorter\SurvivImageCode\src" />
-      <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivImageCodeSorter\src" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivCodeSorter\SurvivDataCode\src" />
+      <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivCodeSorter\SurvivDataFunction" />
       <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivCodeSorter\SurvivGeneralCode\src" />
       <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivCodeSorter\SurvivImageCode\src" />
       <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivImageCodeSorter\beta\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivCodeSorter\SurvivDataCode\src" />
+      <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivCodeSorter\SurvivImageCode" />
+      <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivCodeSorter" />
+      <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivCodeSorter\SurvivImageCode\src" />
+      <recent name="C:\Users\S Wallace PC\IdeaProjects\SurvivImageCodeSorter\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -48,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileOutputter (2)">
+  <component name="RunManager" selected="Application.FileOutputter (3)">
     <configuration name="FileOutputter (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FileOutputter" />
       <module name="SurvivImageCode" />
@@ -59,6 +62,13 @@
     <configuration name="FileOutputter (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FileOutputter" />
       <module name="SurvivGeneralCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileOutputter (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileOutputter" />
+      <module name="SurvivDataCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileOutputter (3)" />
         <item itemvalue="Application.FileOutputter (2)" />
         <item itemvalue="Application.FileOutputter (1)" />
         <item itemvalue="Application.FileOutputter" />
@@ -116,5 +127,16 @@
       <updated>1591074511573</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SurvivDataCode/src/CodeReader.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
